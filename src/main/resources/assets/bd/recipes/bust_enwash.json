@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC",
+        "CAC",
+        "CCC"
+    ],
+    "key": {
+        "A": {
+            "item": "minecraft:red_flower",
+            "data": 0
+        },
+        "C": {
+            "item": "minecraft:cobblestone"
+        }
+    },
+    "result": {
+        "item": "bd:bust_enwash"
+    }
+}

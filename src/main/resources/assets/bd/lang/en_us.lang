@@ -1,0 +1,21 @@
+// ITEMS
+
+//item.ethereum_shard.name=Ethereum Shard
+
+// BLOCKS
+
+tile.torch_diamond.name=Diamond Torch
+tile.torch_tall_wood.name=Tiki Torch
+tile.chandelier.name=Chandelier
+tile.candelabra.name=Candelabra
+tile.bust_notch.name=Notch Bust
+tile.bust_enwash.name=The Creator Bust
+tile.bust_creeper.name=Creeper Bust
+tile.bust_zombie.name=Zombie Bust
+tile.bust_villager.name=Villager Bust
+tile.mailbox_wood.name=Wooden Mailbox
+
+// OTHER
+itemGroup.lighting=Better Deco: Lighting
+itemGroup.busts=Better Deco: Busts
+itemGroup.bdmisc=Better Deco: Miscellaneous

@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "normal": { "model": "bd:bust_creeper" },
+         "facing=north": {
+            "model": "bd:bust_creeper"
+        },
+        "facing=south": {
+            "model": "bd:bust_creeper",
+            "y": 180
+        },
+        "facing=east": {
+            "model": "bd:bust_creeper",
+            "y": 90
+        },
+        "facing=west": {
+            "model": "bd:bust_creeper",
+            "y": 270
+        }
+    }
+}
