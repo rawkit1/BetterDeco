@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "axis=y":  { "model": "bd:log_tinted" },
+        "axis=z":   { "model": "bd:log_tinted", "x": 90 },
+        "axis=x":   { "model": "bd:log_tinted", "x": 90, "y": 90 },
+        "axis=none": { "model": "bd:log_tinted" }
+    }
+}

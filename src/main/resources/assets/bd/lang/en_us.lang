@@ -14,8 +14,12 @@ tile.bust_creeper.name=Creeper Bust
 tile.bust_zombie.name=Zombie Bust
 tile.bust_villager.name=Villager Bust
 tile.mailbox_wood.name=Wooden Mailbox
+tile.logdeer.name=Log Deer
+tile.luckycat_white.name=Lucky Cat (White)
+tile.luckycat_black.name=Lucky Cat (Black)
+tile.log_tinted.name=Tinted Log
 
 // OTHER
 itemGroup.lighting=Better Deco: Lighting
-itemGroup.busts=Better Deco: Busts
-itemGroup.bdmisc=Better Deco: Miscellaneous
+itemGroup.furniture=Better Deco: Furniture
+itemGroup.bdresources=Better Deco: Resources

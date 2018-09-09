@@ -42,7 +42,7 @@ public class Mailbox extends Block implements IHasModel {
 		super(material);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(Main.misc);
+		setCreativeTab(Main.furniture);
 		setSoundType(SoundType.WOOD);
 		setHardness(3.0F);
 		setResistance(1.0F);

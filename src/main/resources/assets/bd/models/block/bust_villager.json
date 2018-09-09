@@ -1,4 +1,5 @@
 {
+    "credit": "Model by enwash",
 	"parent": "block/block",
 	"textures": {
 		"0": "bd:blocks/bust_villager_body",

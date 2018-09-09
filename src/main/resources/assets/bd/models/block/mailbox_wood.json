@@ -1,10 +1,11 @@
 {
+    "credit": "Model by enwash",
 	"parent": "block/block",
 	"textures": {
-		"0": "bd:blocks/vanilla/log_oak",
-		"1": "bd:blocks/vanilla/planks_oak",
+		"0": "bd:blocks/log_tinted_side",
+		"1": "bd:blocks/planks_tinted",
 		"2": "bd:blocks/vanilla/hardened_clay_stained_red",
-		"particle": "bd:blocks/vanilla/log_oak"
+		"particle": "bd:blocks/log_tinted_side"
 	},
     "elements": [
         {

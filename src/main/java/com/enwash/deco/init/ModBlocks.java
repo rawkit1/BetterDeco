@@ -7,6 +7,7 @@ import com.enwash.deco.blocks.Bust;
 import com.enwash.deco.blocks.Candelabra;
 import com.enwash.deco.blocks.Chandelier;
 import com.enwash.deco.blocks.LogDeer;
+import com.enwash.deco.blocks.LogTinted;
 import com.enwash.deco.blocks.Mailbox;
 import com.enwash.deco.blocks.TorchTall;
 
@@ -29,4 +30,7 @@ public class ModBlocks {
 	public static final Block BUST_VILLAGER = new Bust("bust_villager", Material.ROCK);
 	public static final Block MAILBOX_WOOD = new Mailbox("mailbox_wood", Material.WOOD);
 	public static final Block LOGDEER = new LogDeer("logdeer", Material.WOOD);
+	public static final Block LOG_TINTED = new LogTinted("log_tinted", Material.WOOD);
+	public static final Block LUCKYCAT_WHITE = new Bust("luckycat_white", Material.ROCK);
+	public static final Block LUCKYCAT_BLACK = new Bust("luckycat_black", Material.ROCK);
 }

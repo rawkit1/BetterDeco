@@ -1,9 +1,10 @@
 {
+    "credit": "Model by enwash",
 	"parent": "block/block",
 	"textures": {
 		"0": "bd:blocks/vanilla/cobblestone",
 		"1": "bd:blocks/vanilla/torch_on",
-		"3": "bd:blocks/vanilla/log_oak",
+		"3": "bd:blocks/log_tinted_side",
 		"particle": "bd:blocks/vanilla/cobblestone"
 	},
 	"elements": [

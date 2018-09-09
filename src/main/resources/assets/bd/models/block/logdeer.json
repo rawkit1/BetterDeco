@@ -1,8 +1,9 @@
 {
+    "credit": "Model by beeshroom",
 	"parent": "block/block",
 	"textures": {
 		"0": "bd:blocks/logdeer",
-		"1": "bd:blocks/log_tinted",
+		"1": "bd:blocks/log_tinted_side",
 		"particle": "bd:blocks/logdeer"
 	},
     "elements": [
