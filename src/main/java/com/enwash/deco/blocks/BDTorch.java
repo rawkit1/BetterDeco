@@ -6,13 +6,12 @@ import com.enwash.deco.init.ModItems;
 import com.enwash.deco.util.IHasModel;
 
 import net.minecraft.block.Block;
-import net.minecraft.block.BlockTorch;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 
-public class BDTorch extends Block implements IHasModel {
+public class BDTorch extends Block implements IHasModel{
 	
 	public BDTorch(String name, Material material, Float light) {
 		super(material);

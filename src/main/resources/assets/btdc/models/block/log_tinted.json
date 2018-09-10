@@ -1,0 +1,8 @@
+{
+    "credit": "Model by enwash",
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "btdc:blocks/log_tinted_top",
+        "side": "btdc:blocks/log_tinted_side"
+    }
+}

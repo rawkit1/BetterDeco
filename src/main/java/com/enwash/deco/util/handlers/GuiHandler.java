@@ -1,8 +1,5 @@
 package com.enwash.deco.util.handlers;
 
-import com.enwash.deco.blocks.container.ContainerMailbox;
-import com.enwash.deco.util.Reference;
-
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.common.network.IGuiHandler;

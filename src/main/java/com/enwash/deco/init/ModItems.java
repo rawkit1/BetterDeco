@@ -5,9 +5,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import net.minecraft.item.Item;
-import net.minecraft.item.Item.ToolMaterial;
-import net.minecraft.item.ItemSword;
-import net.minecraftforge.common.util.EnumHelper;
 
 public class ModItems {
 

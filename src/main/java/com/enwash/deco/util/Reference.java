@@ -2,7 +2,7 @@ package com.enwash.deco.util;
 
 public class Reference {
 	
-	public static final String MOD_ID = "bd";
+	public static final String MOD_ID = "btdc";
 	public static final String NAME = "Better Deco";
 	public static final String VERSION = "1.0";
 	public static final String ACCEPTED_VERSIONS = "[1.12.2]";

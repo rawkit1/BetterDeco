@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "normal": { "model": "btdc:candelabra" },
+         "facing=north": {
+            "model": "btdc:candelabra"
+        },
+        "facing=south": {
+            "model": "btdc:candelabra"
+        },
+        "facing=east": {
+            "model": "btdc:candelabra",
+            "y": 90
+        },
+        "facing=west": {
+            "model": "btdc:candelabra",
+            "y": 90
+        }
+    }
+}

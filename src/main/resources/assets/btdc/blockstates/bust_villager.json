@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "normal": { "model": "btdc:bust_villager" },
+         "facing=north": {
+            "model": "btdc:bust_villager"
+        },
+        "facing=south": {
+            "model": "btdc:bust_villager",
+            "y": 180
+        },
+        "facing=east": {
+            "model": "btdc:bust_villager",
+            "y": 90
+        },
+        "facing=west": {
+            "model": "btdc:bust_villager",
+            "y": 270
+        }
+    }
+}

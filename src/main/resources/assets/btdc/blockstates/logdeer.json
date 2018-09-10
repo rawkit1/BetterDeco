@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "normal": { "model": "btdc:logdeer" },
+         "facing=north": {
+            "model": "btdc:logdeer"
+        },
+        "facing=south": {
+            "model": "btdc:logdeer",
+            "y": 180
+        },
+        "facing=east": {
+            "model": "btdc:logdeer",
+            "y": 90
+        },
+        "facing=west": {
+            "model": "btdc:logdeer",
+            "y": 270
+        }
+    }
+}
