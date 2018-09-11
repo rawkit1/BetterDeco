@@ -34,5 +34,5 @@ public class ModBlocks {
 	public static final Block LOG_TINTED = new LogTinted("log_tinted", Material.WOOD);
 	public static final Block LUCKYCAT_WHITE = new Bust("luckycat_white", Material.ROCK);
 	public static final Block LUCKYCAT_BLACK = new Bust("luckycat_black", Material.ROCK);
-	//public static final Block FOUNTAIN = new Fountain("fountain", Material.ROCK);
+	public static final Block FOUNTAIN = new Fountain("fountain", Material.ROCK);
 }

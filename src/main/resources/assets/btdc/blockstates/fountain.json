@@ -1,5 +1,18 @@
 {
+	"forge_marker": 1,
+	"defaults": {
+		"model": "forge:multi-layer",
+		"custom": {
+			"base": "btdc:fountain#base",
+			"Solid": "btdc:fountain#base",
+			"Translucent": "btdc:fountain#water"
+		},
+		"transform": "forge:default-block"
+	},
     "variants": {
-        "normal": { "model": "btdc:fountain" }
+        "normal": [{}],
+		"inventory": [{}],
+		"base": [{"model": "btdc:fountain_solid"}],
+		"water": [{"model": "btdc:fountain_water"}]
     }
 }

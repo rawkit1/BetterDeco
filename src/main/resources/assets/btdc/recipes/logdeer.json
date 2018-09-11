@@ -11,10 +11,10 @@
             "ore": "logWood"
         },
         "S": {
-            "item": "bd:log_tinted"
+            "item": "btdc:log_tinted"
         }
     },
     "result": {
-        "item": "bd:logdeer"
+        "item": "btdc:logdeer"
     }
 }

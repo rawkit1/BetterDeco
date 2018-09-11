@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CWC",
+        "CCC",
+        " R "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:clay_ball"
+        },
+		"W": {
+            "item": "minecraft:water_bucket"
+        },
+		"R": {
+            "item": "minecraft:redstone"
+        }
+    },
+    "result": {
+        "item": "btdc:fountain"
+    }
+}

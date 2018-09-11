@@ -14,20 +14,15 @@ public class Fountain extends BlockBase{
           setResistance(0);
       }
   @Override
-  public BlockRenderLayer getBlockLayer(){
-      
-      return BlockRenderLayer.TRANSLUCENT;
+  public boolean canRenderInLayer(IBlockState state, BlockRenderLayer layer){
+	  return layer == BlockRenderLayer.SOLID || layer == BlockRenderLayer.TRANSLUCENT;
   }
-  @Override
-  public boolean isFullBlock(IBlockState state) {
-	  return false;
-  }
-  @Override
+  
   public boolean isFullCube(IBlockState state)
   {
       return false;
   }
-  public boolean isOpaqueBlock(IBlockState state)
+  public boolean isOpaqueCube(IBlockState state)
   {
       return false;
   }

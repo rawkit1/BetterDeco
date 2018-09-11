@@ -25,7 +25,7 @@ public class Main {
 	
 	public static final CreativeTabs lighting = new Lighting("lighting");
 	public static final CreativeTabs furniture = new Furniture("furniture");
-	public static final CreativeTabs resources = new Resources("bdresources");
+	public static final CreativeTabs resources = new Resources("btdcresources");
 	
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)
 	public static CommonProxy proxy;
