@@ -1,6 +1,6 @@
 {
     "credit": "Model by enwash",
-	
+	"parent": "block/block",
 	"textures": {
 		"0": "btdc:blocks/log_tinted_side",
 		"1": "btdc:blocks/glass_seamless",
@@ -127,5 +127,11 @@
 				"down": {"uv": [0, 0, 1, 1], "texture": "#0"}
 			}
 		}
-	]
+	],
+    "display": {
+        "firstperson_righthand": {
+            "scale": [0.5, 0.5, 0.5],
+            "rotation": [0, 0, 0]
+        }
+    }
 }

@@ -28,5 +28,5 @@ tile.bust_ghast.name=Ghast Bust
 // OTHER
 
 itemGroup.lighting=Better Deco: Lighting
-itemGroup.busts=Better Deco: Statues
-itemGroup.btdcmisc=Better Deco: Miscellaneous
+itemGroup.busts=Better Deco: Furniture
+itemGroup.btdcmisc=Better Deco: Resources
