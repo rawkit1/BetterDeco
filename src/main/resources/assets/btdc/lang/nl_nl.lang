@@ -15,7 +15,7 @@ tile.logdeer.name=Boomstamhert
 tile.luckycat_white.name=Gelukskat (Wit)
 tile.luckycat_black.name=Gelukskat (Zwart)
 tile.log_tinted.name=Getinte Boomstam
-tile.coffee_table.name=Glazen Salontafel
+tile.coffee_table_glass.name=Glazen Salontafel
 
 // BUSTS
 
