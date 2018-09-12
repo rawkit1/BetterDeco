@@ -1,0 +1,31 @@
+// ITEMS
+
+//item.ethereum_shard.name=Etheriumscherf
+
+// BLOCKS
+
+tile.fountain.name=Fontein
+tile.torch_diamond.name=Diamanten Fakkel
+tile.torch_tall_wood.name=Tikifakkel
+tile.chandelier.name=Kroonluchter
+tile.candelabra.name=Kandelaar
+tile.mailbox_wood.name=Houten Postbus
+tile.logdeer.name=Stamhert
+tile.luckycat_white.name=Gelukskat (Wit)
+tile.luckycat_black.name=Gelukskat (Zwart)
+tile.log_tinted.name=Getinte Stam
+
+// BUSTS
+
+tile.bust_notch.name=Buste van Notch
+tile.bust_enwash.name=Buste van Enwash
+tile.bust_creeper.name=Buste van een Creeper
+tile.bust_zombie.name=Buste van een Zombie
+tile.bust_villager.name=Buste van een Dorpeling
+tile.bust_ghast.name=Buste van een Ghast
+
+// OTHER
+
+itemGroup.lighting=Better Deco: Belichting
+itemGroup.busts=Better Deco: Standbeelden
+itemGroup.btdcmisc=Better Deco: Overige
