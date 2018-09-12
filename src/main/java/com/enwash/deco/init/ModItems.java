@@ -15,10 +15,5 @@ public class ModItems {
 	//public static final ToolMaterial MATERIAL_ETH_SWORD = EnumHelper.addToolMaterial("material_eth_sword", 3, 1800, 8.0F, 8.0F, 10);
 	
 	//public static final Item ETHEREUM_SHARD = new ItemBase("ethereum_shard");
-<<<<<<< HEAD
 	public static final Item ITEM_404 = new ItemBase("item_404");
-=======
-	public static final Item ITEM404 = new ItemBase("item_404");
-
->>>>>>> 3218dc03bac777b46f50fbe64bedb8af177f3a33
 }

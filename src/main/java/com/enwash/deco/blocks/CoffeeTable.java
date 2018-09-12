@@ -1,35 +1,24 @@
 package com.enwash.deco.blocks;
 
-<<<<<<< HEAD
 import java.util.ArrayList;
 import java.util.List;
 
-=======
->>>>>>> 3218dc03bac777b46f50fbe64bedb8af177f3a33
 import com.enwash.deco.Main;
 import com.enwash.deco.init.ModBlocks;
 import com.enwash.deco.init.ModItems;
 import com.enwash.deco.util.IHasModel;
-<<<<<<< HEAD
 import com.google.common.collect.Lists;
-=======
->>>>>>> 3218dc03bac777b46f50fbe64bedb8af177f3a33
+
 
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
-<<<<<<< HEAD
 import net.minecraft.block.properties.IProperty;
-=======
->>>>>>> 3218dc03bac777b46f50fbe64bedb8af177f3a33
 import net.minecraft.block.properties.PropertyBool;
 import net.minecraft.block.state.BlockFaceShape;
 import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
-<<<<<<< HEAD
 import net.minecraft.entity.Entity;
-=======
->>>>>>> 3218dc03bac777b46f50fbe64bedb8af177f3a33
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemBlock;
@@ -39,11 +28,8 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
-<<<<<<< HEAD
 import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.math.Vec3d;
-=======
->>>>>>> 3218dc03bac777b46f50fbe64bedb8af177f3a33
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
@@ -74,12 +60,7 @@ public class CoffeeTable extends Block implements IHasModel
     {
         if(placer instanceof EntityPlayer)
         {
-<<<<<<< HEAD
             EntityPlayer player = (EntityPlayer) placer;
-=======
-            @SuppressWarnings("unused")
-			EntityPlayer player = (EntityPlayer) placer;
->>>>>>> 3218dc03bac777b46f50fbe64bedb8af177f3a33
         }
         super.onBlockPlacedBy(world, pos, state, placer, stack);
     }
