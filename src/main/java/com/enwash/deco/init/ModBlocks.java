@@ -6,6 +6,7 @@ import java.util.List;
 import com.enwash.deco.blocks.Bust;
 import com.enwash.deco.blocks.Candelabra;
 import com.enwash.deco.blocks.Chandelier;
+import com.enwash.deco.blocks.CoffeeTable;
 import com.enwash.deco.blocks.Fountain;
 import com.enwash.deco.blocks.LogDeer;
 import com.enwash.deco.blocks.LogTinted;
@@ -36,4 +37,5 @@ public class ModBlocks {
 	public static final Block LUCKYCAT_WHITE = new Bust("luckycat_white", Material.ROCK);
 	public static final Block LUCKYCAT_BLACK = new Bust("luckycat_black", Material.ROCK);
 	public static final Block FOUNTAIN = new Fountain("fountain", Material.ROCK);
+	public static final Block COFFEE_TABLE = new CoffeeTable("coffee_table", Material.WOOD, SoundType.GLASS);
 }

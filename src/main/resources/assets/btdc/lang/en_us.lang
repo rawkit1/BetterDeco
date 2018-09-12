@@ -1,6 +1,7 @@
 // ITEMS
 
 //item.ethereum_shard.name=Ethereum Shard
+item.item_404.name=§c-§r§6item_§4404§r§c-§r
 
 // BLOCKS
 
@@ -14,6 +15,7 @@ tile.logdeer.name=Log Deer
 tile.luckycat_white.name=Lucky Cat (White)
 tile.luckycat_black.name=Lucky Cat (Black)
 tile.log_tinted.name=Tinted Log
+tile.coffee_table.name=Glass Coffee Table
 
 // BUSTS
 

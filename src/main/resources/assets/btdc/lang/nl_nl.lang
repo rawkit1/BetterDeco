@@ -1,6 +1,7 @@
 // ITEMS
 
 //item.ethereum_shard.name=Etheriumscherf
+item.item_404.name=§c-§r§6voorwerp_§4404§r§c-§r
 
 // BLOCKS
 
@@ -14,6 +15,7 @@ tile.logdeer.name=Stamhert
 tile.luckycat_white.name=Gelukskat (Wit)
 tile.luckycat_black.name=Gelukskat (Zwart)
 tile.log_tinted.name=Getinte Stam
+tile.coffee_table.name=Glazen Salontafel
 
 // BUSTS
 
