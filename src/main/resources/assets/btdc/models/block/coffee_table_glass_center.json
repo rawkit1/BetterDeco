@@ -2,10 +2,10 @@
     "credit": "Model by enwash",
     "parent": "block/block",
     "textures": {
-        "0": "bd:blocks/log_tinted_side",
-        "1": "bd:blocks/glass_seamless",
-        "2": "bd:blocks/glass_seamless_clear",
-        "particle": "bd:blocks/log_tinted_side"
+        "0": "btdc:blocks/log_tinted_side",
+        "1": "btdc:blocks/glass_seamless",
+        "2": "btdc:blocks/glass_seamless_clear",
+        "particle": "btdc:blocks/log_tinted_side"
     },
     "elements": [
         {

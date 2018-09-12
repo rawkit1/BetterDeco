@@ -1,6 +1,5 @@
 package com.enwash.deco.util.handlers;
 
-import com.enwash.deco.Main;
 import com.enwash.deco.init.ModBlocks;
 import com.enwash.deco.init.ModItems;
 import com.enwash.deco.util.IHasModel;
@@ -11,7 +10,6 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-import net.minecraftforge.fml.common.network.NetworkRegistry;
 
 @EventBusSubscriber
 public class RegistryHandler {

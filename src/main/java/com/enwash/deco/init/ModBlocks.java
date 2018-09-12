@@ -30,6 +30,7 @@ public class ModBlocks {
 	public static final Block BUST_CREEPER = new Bust("bust_creeper", Material.ROCK);
 	public static final Block BUST_ZOMBIE = new Bust("bust_zombie", Material.ROCK);
 	public static final Block BUST_VILLAGER = new Bust("bust_villager", Material.ROCK);
+	public static final Block BUST_GHAST = new Bust("bust_ghast", Material.ROCK);
 	public static final Block MAILBOX_WOOD = new Mailbox("mailbox_wood", Material.WOOD);
 	public static final Block LOGDEER = new LogDeer("logdeer", Material.WOOD);
 	public static final Block LOG_TINTED = new LogTinted("log_tinted", Material.WOOD);
@@ -37,4 +38,5 @@ public class ModBlocks {
 	public static final Block LUCKYCAT_BLACK = new Bust("luckycat_black", Material.ROCK);
 	public static final Block COFFEE_TABLE_GLASS = new CoffeeTable("coffee_table_glass", Material.WOOD, SoundType.WOOD);
 	//public static final Block FOUNTAIN = new Fountain("fountain", Material.ROCK);
+	public static final Block FOUNTAIN = new Fountain("fountain", Material.ROCK);
 }

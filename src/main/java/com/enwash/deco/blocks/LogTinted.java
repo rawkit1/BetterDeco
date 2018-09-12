@@ -5,10 +5,8 @@ import com.enwash.deco.init.ModBlocks;
 import com.enwash.deco.init.ModItems;
 import com.enwash.deco.util.IHasModel;
 
-import net.minecraft.block.BlockLog;
 import net.minecraft.block.BlockRotatedPillar;
 import net.minecraft.block.material.Material;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.util.EnumFacing;
