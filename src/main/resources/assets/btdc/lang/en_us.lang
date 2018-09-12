@@ -1,7 +1,12 @@
 ﻿// ITEMS
 
 //item.ethereum_shard.name=Ethereum Shard
+<<<<<<< HEAD
 item.item_404.name=§k§c-§r§6item_§4404§r§k§c-§r
+=======
+item.item_404.name=§c-§r§6item_§4404§r§c-§r
+
+>>>>>>> 3218dc03bac777b46f50fbe64bedb8af177f3a33
 // BLOCKS
 
 tile.fountain.name=Fountain
@@ -14,7 +19,11 @@ tile.logdeer.name=Log Deer
 tile.luckycat_white.name=Lucky Cat (White)
 tile.luckycat_black.name=Lucky Cat (Black)
 tile.log_tinted.name=Tinted Log
+<<<<<<< HEAD
 tile.coffee_table_glass.name=Glass Coffee Table
+=======
+tile.coffee_table.name=Glass Coffee Table
+>>>>>>> 3218dc03bac777b46f50fbe64bedb8af177f3a33
 
 // BUSTS
 
