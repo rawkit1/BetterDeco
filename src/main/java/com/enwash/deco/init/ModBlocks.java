@@ -11,7 +11,6 @@ import com.enwash.deco.blocks.Fountain;
 import com.enwash.deco.blocks.LogDeer;
 import com.enwash.deco.blocks.LogTinted;
 import com.enwash.deco.blocks.Mailbox;
-import com.enwash.deco.blocks.CoffeeTable;
 import com.enwash.deco.blocks.TorchTall;
 
 import net.minecraft.block.Block;
@@ -38,7 +37,5 @@ public class ModBlocks {
 	public static final Block LUCKYCAT_WHITE = new Bust("luckycat_white", Material.ROCK);
 	public static final Block LUCKYCAT_BLACK = new Bust("luckycat_black", Material.ROCK);
 	public static final Block COFFEE_TABLE_GLASS = new CoffeeTable("coffee_table_glass", Material.WOOD, SoundType.WOOD);
-	//public static final Block FOUNTAIN = new Fountain("fountain", Material.ROCK);
 	public static final Block FOUNTAIN = new Fountain("fountain", Material.ROCK);
-	public static final Block COFFEE_TABLE = new CoffeeTable("coffee_table", Material.WOOD, SoundType.GLASS);
 }

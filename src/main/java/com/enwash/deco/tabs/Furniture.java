@@ -9,6 +9,6 @@ public class Furniture extends CreativeTabs {
 
 	public Furniture(String label) {super("furniture");}
 	@Override
-	public ItemStack getTabIconItem() { return new ItemStack(ModBlocks.BUST_NOTCH); }
+	public ItemStack getTabIconItem() { return new ItemStack(ModBlocks.MAILBOX_WOOD); }
 	
 }

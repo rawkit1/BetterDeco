@@ -34,7 +34,7 @@ public class Bust extends Block implements IHasModel {
 		super(material);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(Main.furniture);
+		setCreativeTab(Main.busts);
 		setSoundType(SoundType.STONE);
 		setHardness(3.0F);
 		setResistance(1.0F);

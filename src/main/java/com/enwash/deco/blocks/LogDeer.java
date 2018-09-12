@@ -34,7 +34,7 @@ public class LogDeer extends Block implements IHasModel {
 		super(material);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(Main.furniture);
+		setCreativeTab(Main.busts);
 		setSoundType(SoundType.WOOD);
 		setHardness(2.0F);
 		setResistance(1.0F);
