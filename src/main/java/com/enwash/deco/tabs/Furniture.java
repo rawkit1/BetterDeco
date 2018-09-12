@@ -7,7 +7,7 @@ import net.minecraft.item.ItemStack;
 
 public class Furniture extends CreativeTabs {
 
-	public Furniture(String label) {super("busts");}
+	public Furniture(String label) {super("furniture");}
 	@Override
 	public ItemStack getTabIconItem() { return new ItemStack(ModBlocks.BUST_NOTCH); }
 	

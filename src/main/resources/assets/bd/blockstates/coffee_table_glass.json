@@ -1,0 +1,68 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "bd:coffee_table_glass",
+        "uvlock": true
+    },
+    "variants": {
+        "inventory": [{
+            "model": "bd:coffee_table_glass"
+        }],
+        "back=false,forward=true,left=false,right=true": {
+            "model": "bd:coffee_table_glass_corner",
+            "y": 0
+        },
+        "back=false,forward=true,left=true,right=false": {
+            "model": "bd:coffee_table_glass_corner",
+            "y": 270
+        },
+        "back=true,forward=false,left=false,right=true": {
+            "model": "bd:coffee_table_glass_corner",
+            "y": 90
+        },
+        "back=true,forward=false,left=true,right=false": {
+            "model": "bd:coffee_table_glass_corner",
+            "y": 180
+        },
+        "back=false,forward=true,left=false,right=false": {
+            "model": "bd:coffee_table_glass_end",
+            "y": 0
+        },
+        "back=false,forward=false,left=false,right=true": {
+            "model": "bd:coffee_table_glass_end",
+            "y": 90
+        },
+        "back=false,forward=false,left=true,right=false": {
+            "model": "bd:coffee_table_glass_end",
+            "y": 270
+        },
+        "back=true,forward=false,left=false,right=false": {
+            "model": "bd:coffee_table_glass_end",
+            "y": 180
+        },
+        "back=false,forward=false,left=false,right=false": {
+            "model": "bd:coffee_table_glass"
+        },
+        "back=true,forward=true,left=false,right=false": {
+            "model": "bd:coffee_table_glass_center"
+        },
+        "back=true,forward=true,left=true,right=false": {
+            "model": "bd:coffee_table_glass_center"
+        },
+        "back=true,forward=true,left=false,right=true": {
+            "model": "bd:coffee_table_glass_center"
+        },
+        "back=false,forward=false,left=true,right=true": {
+            "model": "bd:coffee_table_glass_center"
+        },
+        "back=false,forward=true,left=true,right=true": {
+            "model": "bd:coffee_table_glass_center"
+        },
+        "back=true,forward=false,left=true,right=true": {
+            "model": "bd:coffee_table_glass_center"
+        },
+        "back=true,forward=true,left=true,right=true": {
+            "model": "bd:coffee_table_glass_center"
+        }
+    }
+}
