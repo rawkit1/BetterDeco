@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "normal": { "model": "btdc:mailbox_wood" },
+         "facing=north": {
+            "model": "btdc:mailbox_wood",
+            "y": 180
+        },
+        "facing=south": {
+            "model": "btdc:mailbox_wood"
+        },
+        "facing=east": {
+            "model": "btdc:mailbox_wood",
+            "y": 270
+        },
+        "facing=west": {
+            "model": "btdc:mailbox_wood",
+            "y": 90
+        }
+    }
+}
