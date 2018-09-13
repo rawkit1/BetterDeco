@@ -11,7 +11,6 @@ import com.enwash.deco.blocks.Fountain;
 import com.enwash.deco.blocks.LogDeer;
 import com.enwash.deco.blocks.LogTinted;
 import com.enwash.deco.blocks.Mailbox;
-import com.enwash.deco.blocks.CoffeeTable;
 import com.enwash.deco.blocks.TorchTall;
 
 import net.minecraft.block.Block;

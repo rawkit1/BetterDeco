@@ -2,6 +2,10 @@
 
 //item.ethereum_shard.name=Ethereum Shard
 item.item_404.name=§c-§r§6item_§4404§r§c-§r
+<<<<<<< HEAD
+=======
+
+>>>>>>> 02002b9337901357323fa43595f36179b629d3a1
 // BLOCKS
 
 tile.fountain.name=Fountain
@@ -15,8 +19,11 @@ tile.luckycat_white.name=Lucky Cat (White)
 tile.luckycat_black.name=Lucky Cat (Black)
 tile.log_tinted.name=Tinted Log
 tile.coffee_table_glass.name=Glass Coffee Table
+<<<<<<< HEAD
 =======
 tile.coffee_table.name=Glass Coffee Table
+=======
+>>>>>>> 02002b9337901357323fa43595f36179b629d3a1
 
 // BUSTS
 
@@ -30,5 +37,6 @@ tile.bust_ghast.name=Ghast Bust
 // OTHER
 
 itemGroup.lighting=Better Deco: Lighting
-itemGroup.busts=Better Deco: Furniture
+itemGroup.busts=Better Deco: Statues
+itemGroup.furniture=Better Deco: Furniture
 itemGroup.btdcmisc=Better Deco: Resources

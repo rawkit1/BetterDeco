@@ -1,5 +1,6 @@
 {
 	"credit": "Made by Merlijn (DutchM/merren2306)",
+	"parent": "block/block",
 	"textures": {
 		"0": "blocks/hardened_clay_stained_brown",
 		"1": "btdc:blocks/bust_ghast",

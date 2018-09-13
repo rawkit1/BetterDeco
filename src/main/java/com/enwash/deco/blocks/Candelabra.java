@@ -115,33 +115,34 @@ public class Candelabra extends BlockBase{
     @SideOnly(Side.CLIENT)
     public void randomDisplayTick(IBlockState stateIn, World worldIn, BlockPos pos, Random rand)
     {
-
-    	/*
-    	   double[][] posList = {
-    		{(double)pos.getX() + .625D, (double)pos.getY() + 6D, (double)pos.getZ() + .5D},
-    		{(double)pos.getX() + .9375D, (double)pos.getY() + 6D, (double)pos.getZ() + 0.5D},
-    		{(double)pos.getX() + .5D, (double)pos.getY() + 6D, (double)pos.getZ() + .0625D},
-    		{(double)pos.getX() + .5D, (double)pos.getY() + 6D, (double)pos.getZ() + .9375D}
-    		};
-    	 */
     	
-        double a0 = (double)pos.getX() + .75D;
-        double a1 = (double)pos.getY() + .8125D;
-        double a2 = (double)pos.getZ() + .5D;
-        double b0 = (double)pos.getX() + .25D;
-        double b1 = (double)pos.getY() + .8125D;
-        double b2 = (double)pos.getZ() + .5D;
-        double c0 = (double)pos.getX() + .5D;
-        double c1 = (double)pos.getY() + .75D;
-        double c2 = (double)pos.getZ() + .5D;
-
-
-        worldIn.spawnParticle(EnumParticleTypes.SMOKE_NORMAL, a0, a1, a2, 0.0D, 0.0D, 0.0D);
-        worldIn.spawnParticle(EnumParticleTypes.FLAME, a0, a1, a2, 0.0D, 0.0D, 0.0D);
-        worldIn.spawnParticle(EnumParticleTypes.SMOKE_NORMAL, b0, b1, b2, 0.0D, 0.0D, 0.0D);
-        worldIn.spawnParticle(EnumParticleTypes.FLAME, b0, b1, b2, 0.0D, 0.0D, 0.0D);
-        worldIn.spawnParticle(EnumParticleTypes.SMOKE_NORMAL, c0, c1, c2, 0.0D, 0.0D, 0.0D);
-        worldIn.spawnParticle(EnumParticleTypes.FLAME, c0, c1, c2, 0.0D, 0.0D, 0.0D);
+        double s1 = (double)pos.getY() + .8125D;
+        double m0 = (double)pos.getX() + .5D;
+        double m1 = (double)pos.getY() + .75D;
+        double m2 = (double)pos.getZ() + .5D;
+        double a0;
+        double b0;
+        double a2;
+        double b2;
+        if (stateIn.getValue(FACING) == EnumFacing.NORTH || stateIn.getValue(FACING) == EnumFacing.SOUTH){
+        	a0 = (double)pos.getX() + .75D;
+        	b0 = (double)pos.getX() + .25D;
+        	a2 = (double)pos.getZ() + .5D;
+        	b2 = a2;
+        }
+        else{
+        	a2 = (double)pos.getZ() + .75D;
+        	b2 = (double)pos.getZ() + .25D;
+        	a0 = (double)pos.getX() + .5D;
+        	b0 = a0;
+        }
+        worldIn.spawnParticle(EnumParticleTypes.SMOKE_NORMAL, a0, s1, a2, 0.0D, 0.0D, 0.0D);
+        worldIn.spawnParticle(EnumParticleTypes.FLAME, a0, s1, a2, 0.0D, 0.0D, 0.0D);
+        worldIn.spawnParticle(EnumParticleTypes.SMOKE_NORMAL, b0, s1, b2, 0.0D, 0.0D, 0.0D);
+        worldIn.spawnParticle(EnumParticleTypes.FLAME, b0, s1, b2, 0.0D, 0.0D, 0.0D);
+        
+        worldIn.spawnParticle(EnumParticleTypes.SMOKE_NORMAL, m0, m1, m2, 0.0D, 0.0D, 0.0D);
+        worldIn.spawnParticle(EnumParticleTypes.FLAME, m0, m1, m2, 0.0D, 0.0D, 0.0D);
     }
     
 }

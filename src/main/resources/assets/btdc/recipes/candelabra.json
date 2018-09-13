@@ -2,18 +2,15 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "TTT",
-        " S ",
-        " C "
+        " N ",
+        " N "
     ],
     "key": {
         "T": {
             "item": "minecraft:torch"
         },
-        "S": {
-            "item": "minecraft:stick"
-        },
-        "C": {
-            "item": "minecraft:cobblestone"
+        "N": {
+            "item": "minecraft:iron_nugget"
         }
     },
     "result": {

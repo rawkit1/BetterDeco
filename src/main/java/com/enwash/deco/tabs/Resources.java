@@ -7,8 +7,8 @@ import net.minecraft.item.ItemStack;
 
 public class Resources extends CreativeTabs {
 
-	public Resources(String label) {super("bdresources");}
+	public Resources(String label) {super("btdcmisc");}
 	@Override
-	public ItemStack getTabIconItem() { return new ItemStack(ModBlocks.MAILBOX_WOOD); }
+	public ItemStack getTabIconItem() { return new ItemStack(ModBlocks.LOG_TINTED); }
 	
 }
