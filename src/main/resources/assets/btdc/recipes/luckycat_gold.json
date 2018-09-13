@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC",
+        "CAC",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:gold_block"
+        },
+        "A": {
+            "item": "btdc:luckycat_white"
+        }
+    },
+    "result": {
+        "item": "btdc:luckycat_white"
+    }
+}

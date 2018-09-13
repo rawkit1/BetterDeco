@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "normal": { "model": "btdc:luckycat_gold" },
+         "facing=north": {
+            "model": "btdc:luckycat_gold"
+        },
+        "facing=south": {
+            "model": "btdc:luckycat_gold",
+            "y": 180
+        },
+        "facing=east": {
+            "model": "btdc:luckycat_gold",
+            "y": 90
+        },
+        "facing=west": {
+            "model": "btdc:luckycat_gold",
+            "y": 270
+        }
+    }
+}
