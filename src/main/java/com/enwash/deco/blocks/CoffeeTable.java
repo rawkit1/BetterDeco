@@ -21,6 +21,7 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.BlockRenderLayer;
@@ -32,8 +33,10 @@ import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class CoffeeTable extends Block implements IHasModel
+public class CoffeeTable extends BlockBase
 {
     public static final PropertyBool BACK = PropertyBool.create("back");
     public static final PropertyBool FORWARD = PropertyBool.create("forward");
@@ -44,15 +47,12 @@ public class CoffeeTable extends Block implements IHasModel
     public static final AxisAlignedBB COFFEE_TABLE_AABB = new AxisAlignedBB(0, 0, 0, 1D, .75D, 1D);
     public CoffeeTable(String name, Material material, SoundType sound)
     {
-        super(material);
-        setUnlocalizedName("coffee_table_glass");
-        setRegistryName("coffee_table_glass");
-        this.setHardness(1.0F);
-        this.setSoundType(sound);
-        this.setDefaultState(this.blockState.getBaseState().withProperty(BACK, false).withProperty(FORWARD, false).withProperty(LEFT, false).withProperty(RIGHT, false));
-        this.setCreativeTab(Main.furniture);        
-        ModBlocks.BLOCKS.add(this);
-        ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+        super(name, material);
+        setHarvestLevel("axe", 0);
+        setHardness(1.0F);
+        setSoundType(sound);
+        setDefaultState(this.blockState.getBaseState().withProperty(BACK, false).withProperty(FORWARD, false).withProperty(LEFT, false).withProperty(RIGHT, false));
+        setCreativeTab(Main.furniture);        
     }
 
     @Override
@@ -128,22 +128,17 @@ public class CoffeeTable extends Block implements IHasModel
         return BlockFaceShape.UNDEFINED;
     }
 
-    @Override
+    @SideOnly(Side.CLIENT)
     public boolean isFullBlock(IBlockState state) 
     {
         return false;
     }
     
-    @Override
+    @SideOnly(Side.CLIENT)
     public BlockRenderLayer getBlockLayer(){
-        
         return BlockRenderLayer.CUTOUT;
     }
 
-	@Override
-	public void registerModels() {
-		// TODO Auto-generated method stub
-		
-	}
+	
     
 }

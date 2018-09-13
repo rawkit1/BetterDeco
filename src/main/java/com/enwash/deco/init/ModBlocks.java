@@ -22,7 +22,7 @@ public class ModBlocks {
 
 	public static final List<Block> BLOCKS = new ArrayList<Block>();
 	
-	//public static final Block DIAMOND_TORCH = new BlockBase("torch_diamond", Material.IRON /* , 25F */);
+	
 	public static final Block TORCH_TALL_WOOD = new TorchTall("torch_tall_wood", Material.WOOD, 1F, SoundType.WOOD);
 	public static final Block CHANDELIER = new Chandelier("chandelier", Material.WOOD, 1F, SoundType.WOOD);
 	public static final Block CANDELABRA  = new Candelabra("candelabra", Material.ROCK, 1F, SoundType.STONE);
@@ -38,7 +38,5 @@ public class ModBlocks {
 	public static final Block LUCKYCAT_WHITE = new Bust("luckycat_white", Material.ROCK);
 	public static final Block LUCKYCAT_BLACK = new Bust("luckycat_black", Material.ROCK);
 	public static final Block COFFEE_TABLE_GLASS = new CoffeeTable("coffee_table_glass", Material.WOOD, SoundType.WOOD);
-	//public static final Block FOUNTAIN = new Fountain("fountain", Material.ROCK);
 	public static final Block FOUNTAIN = new Fountain("fountain", Material.ROCK);
-	public static final Block COFFEE_TABLE = new CoffeeTable("coffee_table", Material.WOOD, SoundType.GLASS);
 }
