@@ -31,6 +31,7 @@ public class ModBlocks {
 	public static final Block BUST_ZOMBIE = new Bust("bust_zombie", Material.ROCK);
 	public static final Block BUST_VILLAGER = new Bust("bust_villager", Material.ROCK);
 	public static final Block BUST_GHAST = new Bust("bust_ghast", Material.ROCK);
+	public static final Block BUST_SLIME = new Bust("bust_slime", Material.ROCK);
 	public static final Block MAILBOX_WOOD = new Mailbox("mailbox_wood", Material.WOOD);
 	public static final Block LOGDEER = new LogDeer("logdeer", Material.WOOD);
 	public static final Block LOG_TINTED = new LogTinted("log_tinted", Material.WOOD);

@@ -21,10 +21,11 @@ tile.coffee_table_glass.name=Glass Coffee Table
 
 tile.bust_notch.name=Notch Bust
 tile.bust_enwash.name=Enwash Bust
-tile.bust_creeper.name=Creeper Bust
-tile.bust_zombie.name=Zombie Bust
+tile.bust_creeper.name=Creeper Statuette
+tile.bust_zombie.name=Zombie Statuette
 tile.bust_villager.name=Villager Bust
-tile.bust_ghast.name=Ghast Bust
+tile.bust_ghast.name=Ghast Statuette
+tile.bust_slime.name=Slime Statuette
 
 // OTHER
 
