@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "btdc:luckycat_white"
+        },
+        "title": "Furnish",
+        "description": "Get yourself some beautiful furniture!.",
+        "background": "btdc:textures/blocks/log_tinted_top.png"
+    },
+    "criteria": {
+        "lucky": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "btdc:luckycat_white"
+            }
+        }
+    }
+}

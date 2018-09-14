@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "normal": { "model": "btdc:carpentry_station" },
+         "facing=north": {
+            "model": "btdc:carpentry_station",
+            "y": 180
+        },
+        "facing=south": {
+            "model": "btdc:carpentry_station"
+        },
+        "facing=east": {
+            "model": "btdc:carpentry_station",
+            "y": 270
+        },
+        "facing=west": {
+            "model": "btdc:carpentry_station",
+            "y": 90
+        }
+    }
+}

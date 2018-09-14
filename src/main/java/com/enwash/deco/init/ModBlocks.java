@@ -5,6 +5,7 @@ import java.util.List;
 
 import com.enwash.deco.blocks.Bust;
 import com.enwash.deco.blocks.Candelabra;
+import com.enwash.deco.blocks.CarpentryStation;
 import com.enwash.deco.blocks.Chandelier;
 import com.enwash.deco.blocks.CoffeeTable;
 import com.enwash.deco.blocks.Fountain;
@@ -39,4 +40,5 @@ public class ModBlocks {
 	public static final Block LUCKYCAT_GOLD = new Bust("luckycat_gold", Material.IRON);
 	public static final Block COFFEE_TABLE_GLASS = new CoffeeTable("coffee_table_glass", Material.WOOD, SoundType.WOOD);
 	public static final Block FOUNTAIN = new Fountain("fountain", Material.ROCK);
+	//public static final Block CARPENTRY_STATION = new CarpentryStation("carpentry_station", Material.WOOD);
 }

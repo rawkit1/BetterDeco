@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "btdc:luckycat_white"
+        },
+        "title": "Lucky!",
+        "description": "Embetter your future with the power of the lucky cat.",
+        "background": "btdc:textures/blocks/log_tinted_side.png"
+    },
+    "criteria": {
+        "lucky": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "btdc:luckycat_white"
+            }
+        }
+    }
+}
