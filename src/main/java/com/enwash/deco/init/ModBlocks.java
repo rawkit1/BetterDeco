@@ -39,4 +39,5 @@ public class ModBlocks {
 	public static final Block LUCKYCAT_BLACK = new Bust("luckycat_black", Material.ROCK);
 	public static final Block COFFEE_TABLE_GLASS = new CoffeeTable("coffee_table_glass", Material.WOOD, SoundType.WOOD);
 	public static final Block FOUNTAIN = new Fountain("fountain", Material.ROCK);
+	public static final Block PLUSH_HEROBRINE = new Bust("plush_herobrine", Material.CLOTH);
 }

@@ -1,0 +1,10 @@
+# Model by beeshroom, mtl by Merlijn (DutchM/merren2306)
+
+newmtl normal
+Kd 1.000000 1.000000 1.000000
+map_Kd btdc:blocks/plush_herobrine
+
+newmtl glow
+Ka 1.000000 1.000000 1.000000
+illum 2
+map_Ka btdc:blocks/plush_herobrine
