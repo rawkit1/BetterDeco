@@ -1,0 +1,21 @@
+{
+    "variants": {
+        "normal": { "model": "btdc:trophy_pig" },
+         "facing=north": {
+            "model": "btdc:trophy_pig",
+            "y": 180
+        },
+        "facing=south": {
+            "model": "btdc:trophy_pig",
+            "y": 0
+        },
+        "facing=east": {
+            "model": "btdc:trophy_pig",
+            "y": 270
+        },
+        "facing=west": {
+            "model": "btdc:trophy_pig",
+            "y": 90
+        }
+    }
+}

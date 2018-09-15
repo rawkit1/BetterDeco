@@ -5,15 +5,20 @@ import com.enwash.deco.init.BTDCBlocks;
 import com.enwash.deco.init.BTDCItems;
 import com.enwash.deco.util.IHasModel;
 
+import net.minecraft.block.BlockVine;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockHorizontal;
+import net.minecraft.block.BlockShulkerBox;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.IProperty;
+import net.minecraft.block.properties.PropertyBool;
 import net.minecraft.block.properties.PropertyDirection;
+import net.minecraft.block.state.BlockFaceShape;
 import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
@@ -26,12 +31,15 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
-public class Bust extends Block implements IHasModel {
+public class Trophy extends Block implements IHasModel {
 
 	public static final PropertyDirection FACING = BlockHorizontal.FACING;
-	public static final AxisAlignedBB BOUNDING_BOX = new AxisAlignedBB(0.25D, 0.0D, 0.25D, .75D, 1D, .75D);
+	public static final AxisAlignedBB BB_SOUTH = new AxisAlignedBB(0, 0, 0, 1D, 1D, 0.1875D);
+	public static final AxisAlignedBB BB_NORTH = new AxisAlignedBB(0, 0, 1D, 1D, 1D, 0.8125D);
+	public static final AxisAlignedBB BB_EAST = new AxisAlignedBB(0, 0, 0, 0.1875D, 1D, 1D);
+	public static final AxisAlignedBB BB_WEST = new AxisAlignedBB(1D, 0, 1D, 0.8125D, 1D, 0);
 	
-	public Bust(String name, Material material)
+	public Trophy(String name, Material material)
 	{
 		
 		super(material);
@@ -49,6 +57,45 @@ public class Bust extends Block implements IHasModel {
 		BTDCItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
 	}
 
+	public AxisAlignedBB bbFromFacing(IBlockState state) {
+		if ((EnumFacing)state.getValue(FACING) == EnumFacing.NORTH) {
+			return BB_NORTH;
+		}
+		else if ((EnumFacing)state.getValue(FACING) == EnumFacing.SOUTH) {
+			return BB_SOUTH;
+		}
+		else if ((EnumFacing)state.getValue(FACING) == EnumFacing.EAST) {
+			return BB_EAST;
+		}
+		return BB_WEST;
+	}
+	
+	
+	// Block Placement
+	
+	public boolean canPlaceBlockOnSide(World worldIn, BlockPos pos, EnumFacing side)
+    {
+        return side != EnumFacing.DOWN && side != EnumFacing.UP && this.canAttachTo(worldIn, pos, side);
+    }
+
+    public boolean canAttachTo(World p_193395_1_, BlockPos p_193395_2_, EnumFacing p_193395_3_)
+    {
+        Block block = p_193395_1_.getBlockState(p_193395_2_.up()).getBlock();
+        return this.isAcceptableNeighbor(p_193395_1_, p_193395_2_.offset(p_193395_3_.getOpposite()), p_193395_3_) && (block == Blocks.AIR || block == Blocks.VINE || this.isAcceptableNeighbor(p_193395_1_, p_193395_2_.up(), EnumFacing.UP));
+    }
+
+    private boolean isAcceptableNeighbor(World p_193396_1_, BlockPos p_193396_2_, EnumFacing p_193396_3_)
+    {
+        IBlockState iblockstate = p_193396_1_.getBlockState(p_193396_2_);
+        return iblockstate.getBlockFaceShape(p_193396_1_, p_193396_2_, p_193396_3_) == BlockFaceShape.SOLID && !isExceptBlockForAttaching(iblockstate.getBlock());
+    }
+
+    protected static boolean isExceptBlockForAttaching(Block p_193397_0_)
+    {
+        return p_193397_0_ instanceof BlockShulkerBox || p_193397_0_ == Blocks.BEACON || p_193397_0_ == Blocks.CAULDRON || p_193397_0_ == Blocks.PISTON || p_193397_0_ == Blocks.STICKY_PISTON || p_193397_0_ == Blocks.PISTON_HEAD || p_193397_0_ == Blocks.TRAPDOOR;
+    }
+
+    
 	// Rotation
 	
 	@Override
@@ -69,10 +116,10 @@ public class Bust extends Block implements IHasModel {
             worldIn.setBlockState(pos, state.withProperty(FACING, face), 2);
         }
 	}
-	
+
 	@Override
     public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos) {
-    	return BOUNDING_BOX;
+    	return bbFromFacing(state);
     }
 	
 	@Override
@@ -144,4 +191,6 @@ public class Bust extends Block implements IHasModel {
     public boolean isFullCube(IBlockState state) {
     	return false;
     }
+    
+    
 }

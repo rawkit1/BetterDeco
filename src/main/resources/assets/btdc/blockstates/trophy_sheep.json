@@ -1,0 +1,21 @@
+{
+    "variants": {
+        "normal": { "model": "btdc:trophy_sheep" },
+         "facing=north": {
+            "model": "btdc:trophy_sheep",
+            "y": 180
+        },
+        "facing=south": {
+            "model": "btdc:trophy_sheep",
+            "y": 0
+        },
+        "facing=east": {
+            "model": "btdc:trophy_sheep",
+            "y": 270
+        },
+        "facing=west": {
+            "model": "btdc:trophy_sheep",
+            "y": 90
+        }
+    }
+}

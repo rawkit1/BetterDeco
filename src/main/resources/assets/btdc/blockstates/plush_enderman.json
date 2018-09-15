@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "normal": { "model": "btdc:plush_enderman" },
+         "facing=north": {
+            "model": "btdc:plush_enderman"
+        },
+        "facing=south": {
+            "model": "btdc:plush_enderman",
+            "y": 180
+        },
+        "facing=east": {
+            "model": "btdc:plush_enderman",
+            "y": 90
+        },
+        "facing=west": {
+            "model": "btdc:plush_enderman",
+            "y": 270
+        }
+    }
+}

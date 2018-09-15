@@ -1,0 +1,21 @@
+{
+    "variants": {
+        "normal": { "model": "btdc:wall_mount" },
+         "facing=north": {
+            "model": "btdc:wall_mount",
+            "y": 180
+        },
+        "facing=south": {
+            "model": "btdc:wall_mount",
+            "y": 0
+        },
+        "facing=east": {
+            "model": "btdc:wall_mount",
+            "y": 270
+        },
+        "facing=west": {
+            "model": "btdc:wall_mount",
+            "y": 90
+        }
+    }
+}
