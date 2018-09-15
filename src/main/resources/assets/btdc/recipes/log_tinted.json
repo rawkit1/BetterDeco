@@ -2,7 +2,8 @@
     "type": "crafting_shapeless",
     "ingredients": [
         {
-            "item": "minecraft:oak_log"
+            "type": "forge:ore_dict",
+            "ore": "logWood"
         },
         {
             "item": "minecraft:flint"

@@ -23,8 +23,7 @@ public class BTDCBlocks {
 
 	public static final List<Block> BLOCKS = new ArrayList<Block>();
 	
-	// BUSTS / STATUETTES
-	
+	// BUSTS + STATUETTES
 	public static final Block TORCH_TALL_WOOD = new TorchTall("torch_tall_wood", Material.WOOD, 1F, SoundType.WOOD);
 	public static final Block CHANDELIER = new Chandelier("chandelier", Material.WOOD, 1F, SoundType.WOOD);
 	public static final Block CANDELABRA  = new Candelabra("candelabra", Material.ROCK, 1F, SoundType.STONE);
@@ -37,22 +36,19 @@ public class BTDCBlocks {
 	public static final Block BUST_SLIME = new Bust("bust_slime", Material.ROCK);
 	
 	// TROPHIES
-	
 	public static final Block TROPHY_MOUNT = new Trophy("wall_mount", Material.WOOD);
 	public static final Block TROPHY_COW = new Trophy("trophy_cow", Material.WOOD);
 	public static final Block TROPHY_PIG = new Trophy("trophy_pig", Material.WOOD);
 	public static final Block TROPHY_SHEEP = new Trophy("trophy_sheep", Material.WOOD);
 	
 	// PLUSHES
-	
 	public static final Block PLUSH_STEVE = new Plush("plush_steve", Material.CLOTH);
 	public static final Block PLUSH_ENWASH = new Plush("plush_enwash", Material.CLOTH);
 	public static final Block PLUSH_ENDERMAN = new Plush("plush_enderman", Material.CLOTH);
 	public static final Block PLUSH_BEESHROOM = new Plush("plush_beeshroom", Material.CLOTH);
-	
+	public static final Block PLUSH_HEROBRINE = new Bust("plush_herobrine", Material.CLOTH);
 	
 	// OTHER
-	
 	public static final Block LUCKYCAT_WHITE = new Bust("luckycat_white", Material.ROCK);
 	public static final Block LUCKYCAT_BLACK = new Bust("luckycat_black", Material.ROCK);
 	public static final Block LUCKYCAT_GOLD = new Bust("luckycat_gold", Material.IRON);
@@ -62,5 +58,5 @@ public class BTDCBlocks {
 	public static final Block COFFEE_TABLE_GLASS = new CoffeeTable("coffee_table_glass", Material.WOOD, SoundType.WOOD);
 	public static final Block FOUNTAIN = new Fountain("fountain", Material.ROCK);
 	//public static final Block CARPENTRY_STATION = new CarpentryStation("carpentry_station", Material.WOOD);
-	public static final Block PLUSH_HEROBRINE = new Bust("plush_herobrine", Material.CLOTH);
+	
 }

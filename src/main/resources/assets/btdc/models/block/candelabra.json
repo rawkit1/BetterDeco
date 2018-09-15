@@ -1,10 +1,10 @@
 {
-	"credit": "Made by enwash, updated by Merlijn (DutchM/merren2306)",
+	"credit": "Made by enwash, updated by Merlijn (DutchM/merren2306), unupdated by enwash",
 	"parent": "block/block",
 	"textures": {
 		"0": "blocks/cobblestone",
 		"1": "blocks/torch_on",
-		"3": "blocks/iron_block",
+		"3": "blocks/cobblestone",
 		"particle": "blocks/cobblestone"
 	},
 	"elements": [
