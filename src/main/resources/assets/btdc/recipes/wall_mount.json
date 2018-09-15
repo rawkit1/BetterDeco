@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "WWW",
+        "WWW",
+        " W "
+    ],
+    "key": {
+        "W": {
+            "type": "forge:ore_dict",
+            "ore": "logWood"
+        }
+    },
+    "result": {
+        "item": "btdc:wall_mount"
+    }
+}

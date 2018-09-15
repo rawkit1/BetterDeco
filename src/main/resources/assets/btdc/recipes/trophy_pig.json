@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "btdc:wall_mount"
+        },
+        {
+            "item": "minecraft:porkchop"
+        }
+    ],
+    "result": {"item": "btdc:trophy_pig"}
+}
