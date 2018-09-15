@@ -25,6 +25,7 @@ tile.bust_creeper.name=Beeldje van een Creeper
 tile.bust_zombie.name=Beeldje van een Zombie
 tile.bust_villager.name=Buste van een Dorpeling
 tile.bust_ghast.name=Beeldje van een Ghast
+tile.bust_slime.name=Beeldje van Slijmkubussen
 
 // OTHER
 

@@ -23,6 +23,10 @@ tile.bust_creeper.name=Creeper Statuette
 tile.bust_zombie.name=Zombie Statuette
 tile.bust_villager.name=Villager Bust
 tile.bust_ghast.name=Ghast Statuette
+<<<<<<< HEAD
+=======
+tile.bust_slime.name=Slime Statuette
+>>>>>>> 0ef262bfc2f5df4a026fb3c69418ce96f4ed3843
 
 //TROHPIES
 
