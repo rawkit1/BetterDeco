@@ -1,8 +1,8 @@
 package com.enwash.deco.blocks;
 
 import com.enwash.deco.Main;
-import com.enwash.deco.init.ModBlocks;
-import com.enwash.deco.init.ModItems;
+import com.enwash.deco.init.BTDCBlocks;
+import com.enwash.deco.init.BTDCItems;
 import com.enwash.deco.util.IHasModel;
 
 import net.minecraft.block.Block;

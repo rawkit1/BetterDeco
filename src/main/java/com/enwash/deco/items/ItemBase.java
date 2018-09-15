@@ -1,7 +1,7 @@
 package com.enwash.deco.items;
 
 import com.enwash.deco.Main;
-import com.enwash.deco.init.ModItems;
+import com.enwash.deco.init.BTDCItems;
 import com.enwash.deco.util.IHasModel;
 
 import net.minecraft.creativetab.CreativeTabs;
@@ -13,9 +13,8 @@ public class ItemBase extends Item implements IHasModel {
 	{
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.MATERIALS);
 		
-		ModItems.ITEMS.add(this);
+		BTDCItems.ITEMS.add(this);
 	}
 	
 	@Override

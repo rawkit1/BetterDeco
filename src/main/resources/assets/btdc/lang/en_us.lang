@@ -1,13 +1,9 @@
 ﻿// ITEMS
-
-//item.ethereum_shard.name=Ethereum Shard
 item.item_404.name=§c-§r§6item_§4404§r§c-§r
 
 
 // BLOCKS
-
 tile.fountain.name=Fountain
-tile.torch_diamond.name=Diamond Torch
 tile.torch_tall_wood.name=Tiki Torch
 tile.chandelier.name=Chandelier
 tile.candelabra.name=Candelabra
@@ -17,20 +13,20 @@ tile.luckycat_white.name=Lucky Cat (White)
 tile.luckycat_black.name=Lucky Cat (Black)
 tile.luckycat_gold.name=Lucky Cat (Gold)
 tile.log_tinted.name=Tinted Log
-tile.coffee_table_glass.name=Glass Coffee Table
+tile.coffee_table_glass.name=Coffee Table
 tile.carpentry_station.name=Carpentry Station
 
 // BUSTS
-
 tile.bust_notch.name=Notch Bust
 tile.bust_enwash.name=Enwash Bust
-tile.bust_creeper.name=Creeper Bust
-tile.bust_zombie.name=Zombie Bust
+tile.bust_creeper.name=Creeper Statuette
+tile.bust_zombie.name=Zombie Statuette
 tile.bust_villager.name=Villager Bust
-tile.bust_ghast.name=Ghast Bust
+tile.bust_ghast.name=Ghast Statuette
+
+//TROHPIES
 
 // OTHER
-
 itemGroup.lighting=Better Deco: Lighting
 itemGroup.furniture=Better Deco: Furniture
 itemGroup.btdcresources=Better Deco: Resources

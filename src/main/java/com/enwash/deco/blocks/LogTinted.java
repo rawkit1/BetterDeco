@@ -1,8 +1,8 @@
 package com.enwash.deco.blocks;
 
 import com.enwash.deco.Main;
-import com.enwash.deco.init.ModBlocks;
-import com.enwash.deco.init.ModItems;
+import com.enwash.deco.init.BTDCBlocks;
+import com.enwash.deco.init.BTDCItems;
 import com.enwash.deco.util.IHasModel;
 
 import net.minecraft.block.BlockRotatedPillar;
@@ -20,8 +20,8 @@ public class LogTinted extends BlockRotatedPillar implements IHasModel {
         setHarvestLevel("axe", 0);
         setHardness(2.0F);
         setCreativeTab(Main.resources);
-        ModBlocks.BLOCKS.add(this);
-        ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+        BTDCBlocks.BLOCKS.add(this);
+        BTDCItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
         this.setDefaultState(this.getDefaultState().withProperty(AXIS, EnumFacing.Axis.Y));
     }
 

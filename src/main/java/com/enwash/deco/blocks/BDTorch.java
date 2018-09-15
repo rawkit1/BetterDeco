@@ -1,8 +1,8 @@
 package com.enwash.deco.blocks;
 
 import com.enwash.deco.Main;
-import com.enwash.deco.init.ModBlocks;
-import com.enwash.deco.init.ModItems;
+import com.enwash.deco.init.BTDCBlocks;
+import com.enwash.deco.init.BTDCItems;
 import com.enwash.deco.util.IHasModel;
 
 import net.minecraft.block.Block;
@@ -22,8 +22,8 @@ public class BDTorch extends Block implements IHasModel{
 		setLightLevel(light);
 		setUnlocalizedName(name);
 		
-		ModBlocks.BLOCKS.add(this);
-		ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+		BTDCBlocks.BLOCKS.add(this);
+		BTDCItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
 	}
 	
 	@Override

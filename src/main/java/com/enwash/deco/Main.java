@@ -1,6 +1,6 @@
 package com.enwash.deco;
 
-import com.enwash.deco.init.OreDictInit;
+import com.enwash.deco.init.BTDCOreDict;
 import com.enwash.deco.proxy.CommonProxy;
 import com.enwash.deco.tabs.Busts;
 import com.enwash.deco.tabs.Furniture;
@@ -42,7 +42,7 @@ public class Main {
 	public static void init(FMLInitializationEvent event)
 	{
 		RegistryHandler.initRegistries();
-		OreDictInit.initOres();
+		BTDCOreDict.initOres();
 	}
 		
 	@EventHandler

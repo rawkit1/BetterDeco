@@ -1,7 +1,7 @@
 package com.enwash.deco.util.handlers;
 
-import com.enwash.deco.init.ModBlocks;
-import com.enwash.deco.init.ModItems;
+import com.enwash.deco.init.BTDCBlocks;
+import com.enwash.deco.init.BTDCItems;
 import com.enwash.deco.util.IHasModel;
 
 import net.minecraft.block.Block;
@@ -17,19 +17,19 @@ public class RegistryHandler {
 	@SubscribeEvent
 	public static void onItemRegister(RegistryEvent.Register<Item> event)
 	{
-		event.getRegistry().registerAll(ModItems.ITEMS.toArray(new Item[0]));
+		event.getRegistry().registerAll(BTDCItems.ITEMS.toArray(new Item[0]));
 	}
 	
 	@SubscribeEvent
 	public static void onBlockRegister(RegistryEvent.Register<Block> event)
 	{
-		event.getRegistry().registerAll(ModBlocks.BLOCKS.toArray(new Block[0]));
+		event.getRegistry().registerAll(BTDCBlocks.BLOCKS.toArray(new Block[0]));
 	}
 	
 	@SubscribeEvent
 	public static void onModelRegister(ModelRegistryEvent event)
 	{
-		for(Item item : ModItems.ITEMS)
+		for(Item item : BTDCItems.ITEMS)
 		{
 			if(item instanceof IHasModel)
 			{
@@ -37,7 +37,7 @@ public class RegistryHandler {
 			}
 		}
 		
-		for(Block block : ModBlocks.BLOCKS)
+		for(Block block : BTDCBlocks.BLOCKS)
 		{
 			if(block instanceof IHasModel)
 			{
