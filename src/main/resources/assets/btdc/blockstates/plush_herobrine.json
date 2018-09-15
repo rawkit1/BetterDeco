@@ -1,0 +1,23 @@
+{
+    "variants": {
+        "normal": { "model": "btdc:wavefront/plush_herobrine.obj" },
+         "facing=north": {
+            "model": "btdc:wavefront/plush_herobrine.obj"
+        },
+        "facing=south": {
+            "model": "btdc:wavefront/plush_herobrine.obj",
+            "y": 180
+        },
+        "facing=east": {
+            "model": "btdc:wavefront/plush_herobrine.obj",
+            "y": 90
+        },
+        "facing=west": {
+            "model": "btdc:wavefront/plush_herobrine.obj",
+            "y": 270
+        },
+		"inventory": {
+		"model": "btdc:wavefront/plush_herobrine.obj"
+		}
+    }
+}

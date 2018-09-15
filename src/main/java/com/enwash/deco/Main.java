@@ -10,6 +10,7 @@ import com.enwash.deco.util.Reference;
 import com.enwash.deco.util.handlers.RegistryHandler;
 
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraftforge.client.model.obj.OBJLoader;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -34,6 +35,7 @@ public class Main {
 	@EventHandler
 	public static void PreInit(FMLPreInitializationEvent event)
 	{
+		OBJLoader.INSTANCE.addDomain(Reference.MOD_ID);
 		RegistryHandler.preInitRegistries();
 		
 	}

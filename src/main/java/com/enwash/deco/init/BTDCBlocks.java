@@ -62,4 +62,5 @@ public class BTDCBlocks {
 	public static final Block COFFEE_TABLE_GLASS = new CoffeeTable("coffee_table_glass", Material.WOOD, SoundType.WOOD);
 	public static final Block FOUNTAIN = new Fountain("fountain", Material.ROCK);
 	//public static final Block CARPENTRY_STATION = new CarpentryStation("carpentry_station", Material.WOOD);
+	public static final Block PLUSH_HEROBRINE = new Bust("plush_herobrine", Material.CLOTH);
 }
