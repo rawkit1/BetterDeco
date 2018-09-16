@@ -1,23 +1,23 @@
 {
     "variants": {
-        "normal": { "model": "btdc:wavefront/plush_herobrine.obj" },
+        "normal": { "model": "btdc:plush_herobrine" },
          "facing=north": {
-            "model": "btdc:wavefront/plush_herobrine.obj"
+            "model": "btdc:plush_herobrine"
         },
         "facing=south": {
-            "model": "btdc:wavefront/plush_herobrine.obj",
+            "model": "btdc:plush_herobrine",
             "y": 180
         },
         "facing=east": {
-            "model": "btdc:wavefront/plush_herobrine.obj",
+            "model": "btdc:plush_herobrine",
             "y": 90
         },
         "facing=west": {
-            "model": "btdc:wavefront/plush_herobrine.obj",
+            "model": "btdc:plush_herobrine",
             "y": 270
         },
 		"inventory": {
-		"model": "btdc:wavefront/plush_herobrine.obj"
+		"model": "btdc:plush_herobrine"
 		}
     }
 }

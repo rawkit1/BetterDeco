@@ -17,8 +17,8 @@ import net.minecraftforge.common.IShearable;
 public class Plush extends Bust {
 	public static final AxisAlignedBB BOUNDING_BOX = new AxisAlignedBB(0.25D, 0.0D, 0.25D, .75D, .75D, .75D);
 	
-	public Plush(String name, Material material) {
-		super(name, material);
+	public Plush(String name, Material material, SoundType soundType) {
+		super(name, material, soundType);
 		setSoundType(SoundType.CLOTH);
 		setHardness(3.0F);
 		setResistance(1.0F);

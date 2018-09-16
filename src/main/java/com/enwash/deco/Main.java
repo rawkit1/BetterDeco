@@ -35,7 +35,6 @@ public class Main {
 	@EventHandler
 	public static void PreInit(FMLPreInitializationEvent event)
 	{
-		OBJLoader.INSTANCE.addDomain(Reference.MOD_ID);
 		RegistryHandler.preInitRegistries();
 		
 	}

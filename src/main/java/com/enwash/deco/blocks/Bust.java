@@ -31,14 +31,14 @@ public class Bust extends Block implements IHasModel {
 	public static final PropertyDirection FACING = BlockHorizontal.FACING;
 	public static final AxisAlignedBB BOUNDING_BOX = new AxisAlignedBB(0.25D, 0.0D, 0.25D, .75D, 1D, .75D);
 	
-	public Bust(String name, Material material)
+	public Bust(String name, Material material, SoundType soundType)
 	{
 		
 		super(material);
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(Main.furniture);
-		setSoundType(SoundType.STONE);
+		setSoundType(soundType);
 		setHardness(3.0F);
 		setResistance(1.0F);
 		setHarvestLevel("pickaxe", 1);

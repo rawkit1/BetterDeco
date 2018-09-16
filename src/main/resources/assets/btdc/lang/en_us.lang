@@ -5,6 +5,7 @@ tile.chandelier.name=Chandelier
 tile.candelabra.name=Candelabra
 tile.mailbox_wood.name=Wooden Mailbox
 tile.logdeer.name=Log Deer
+tile.logdeer_big.name=Big Log Deer
 tile.luckycat_white.name=Lucky Cat (White)
 tile.luckycat_black.name=Lucky Cat (Black)
 tile.luckycat_gold.name=Lucky Cat (Gold)
@@ -32,6 +33,7 @@ tile.plush_enwash.name=Enwash Plush
 tile.plush_enderman.name=Enderman Plush
 tile.plush_steve.name=Steve Plush
 tile.plush_beeshroom.name=Beeshroom Plush
+tile.plush_herobrine.name=Herobrine Plush
 
 // OTHER
 itemGroup.lighting=Better Deco: Lighting
