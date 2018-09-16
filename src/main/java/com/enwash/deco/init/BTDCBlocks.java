@@ -49,6 +49,7 @@ public class BTDCBlocks {
 	public static final Block PLUSH_ENDERMAN = new Plush("plush_enderman", Material.CLOTH, SoundType.CLOTH);
 	
 	// OTHER
+	public static final Block GLOBE = new Bust("globe", Material.WOOD, SoundType.WOOD);
 	public static final Block LUCKYCAT_WHITE = new Bust("luckycat_white", Material.ROCK, SoundType.CLOTH);
 	public static final Block LUCKYCAT_BLACK = new Bust("luckycat_black", Material.ROCK, SoundType.CLOTH);
 	public static final Block LUCKYCAT_GOLD = new Bust("luckycat_gold", Material.IRON, SoundType.CLOTH);

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "btdc:sewing_needle"
+        },
+        {
+            "item": "minecraft:wool",
+            "data": 0
+        },
+        {
+            "item": "minecraft:ender_pearl"
+        }
+    ],
+    "result": {"item": "btdc:plush_enderman", "count": 1}
+}

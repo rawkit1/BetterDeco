@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CWC",
+        "CCC",
+        " C "
+    ],
+    "key": {
+        "C": {
+            "item": "btdc:log_tinted"
+        },
+		"W": {
+            "item": "minecraft:dirt"
+        }
+    },
+    "result": {
+        "item": "btdc:globe"
+    }
+}

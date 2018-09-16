@@ -2,7 +2,7 @@ package com.enwash.deco.util.handlers;
 
 import com.enwash.deco.init.BTDCBlocks;
 import com.enwash.deco.init.BTDCItems;
-import com.enwash.deco.util.IHasModel;
+import com.enwash.deco.util.ICanHazModel;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -31,17 +31,17 @@ public class RegistryHandler {
 	{
 		for(Item item : BTDCItems.ITEMS)
 		{
-			if(item instanceof IHasModel)
+			if(item instanceof ICanHazModel)
 			{
-				((IHasModel)item).registerModels();
+				((ICanHazModel)item).registerModels();
 			}
 		}
 		
 		for(Block block : BTDCBlocks.BLOCKS)
 		{
-			if(block instanceof IHasModel)
+			if(block instanceof ICanHazModel)
 			{
-				((IHasModel)block).registerModels();
+				((ICanHazModel)block).registerModels();
 			}
 		}
 	}

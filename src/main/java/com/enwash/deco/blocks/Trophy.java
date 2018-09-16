@@ -3,7 +3,7 @@ package com.enwash.deco.blocks;
 import com.enwash.deco.Main;
 import com.enwash.deco.init.BTDCBlocks;
 import com.enwash.deco.init.BTDCItems;
-import com.enwash.deco.util.IHasModel;
+import com.enwash.deco.util.ICanHazModel;
 
 import net.minecraft.block.BlockVine;
 import net.minecraft.block.Block;
@@ -31,7 +31,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
-public class Trophy extends Block implements IHasModel {
+public class Trophy extends Block implements ICanHazModel {
 
 	public static final PropertyDirection FACING = BlockHorizontal.FACING;
 	public static final AxisAlignedBB BB_SOUTH = new AxisAlignedBB(0, 0, 0, 1D, 1D, 0.1875D);

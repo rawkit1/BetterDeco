@@ -1,5 +1,20 @@
 {
     "variants": {
-        "normal": { "model": "btdc:globe" }
+        "normal": { "model": "btdc:globe" },
+         "facing=north": {
+            "model": "btdc:globe",
+            "y": 180
+        },
+        "facing=south": {
+            "model": "btdc:globe"
+        },
+        "facing=east": {
+            "model": "btdc:globe",
+            "y": 270
+        },
+        "facing=west": {
+            "model": "btdc:globe",
+            "y": 90
+        }
     }
 }

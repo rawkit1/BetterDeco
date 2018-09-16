@@ -1,3 +1,6 @@
+// ITEMS
+item.sewing_needle.name=Sewing Needle
+
 // BLOCKS
 tile.fountain.name=Fountain
 tile.torch_tall_wood.name=Tiki Torch
@@ -12,6 +15,7 @@ tile.luckycat_gold.name=Lucky Cat (Gold)
 tile.log_tinted.name=Tinted Log
 tile.coffee_table_glass.name=Coffee Table
 tile.carpentry_station.name=Carpentry Station
+tile.globe.name=Globe
 
 // BUSTS
 tile.bust_notch.name=Notch Bust
@@ -22,7 +26,7 @@ tile.bust_villager.name=Villager Bust
 tile.bust_ghast.name=Ghast Statuette
 tile.bust_slime.name=Slime Statuette
 
-//TROHPIES
+//TROPHIES
 tile.wall_mount.name=Trophy Mount
 tile.trophy_cow.name=Cow Trophy
 tile.trophy_pig.name=Pig Trophy

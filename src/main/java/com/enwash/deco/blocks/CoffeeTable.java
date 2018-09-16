@@ -3,7 +3,7 @@ package com.enwash.deco.blocks;
 import com.enwash.deco.Main;
 import com.enwash.deco.init.BTDCBlocks;
 import com.enwash.deco.init.BTDCItems;
-import com.enwash.deco.util.IHasModel;
+import com.enwash.deco.util.ICanHazModel;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;

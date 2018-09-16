@@ -7,13 +7,14 @@ import com.enwash.deco.util.ICanHazModel;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
-public class ItemBase extends Item implements ICanHazModel {
+public class Needle extends Item implements ICanHazModel {
 
-	public ItemBase(String name)
+	public Needle(String name)
 	{
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		
+		setCreativeTab(Main.resources);
+		setMaxStackSize(1);
 		BTDCItems.ITEMS.add(this);
 	}
 	
@@ -23,6 +24,10 @@ public class ItemBase extends Item implements ICanHazModel {
 		Main.proxy.registerItemRenderer(this, 0, "inventory");
 		
 	}
-
+	
+	@Override
+	public Item getContainerItem() {
+		return BTDCItems.SEWING_NEEDLE;
+	}
 	
 }

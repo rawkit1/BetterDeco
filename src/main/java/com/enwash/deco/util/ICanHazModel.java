@@ -1,6 +1,6 @@
 package com.enwash.deco.util;
 
-public interface IHasModel {
+public interface ICanHazModel {
 
 	public void registerModels();
 	

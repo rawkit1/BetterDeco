@@ -3,7 +3,7 @@ package com.enwash.deco.blocks;
 import com.enwash.deco.Main;
 import com.enwash.deco.init.BTDCBlocks;
 import com.enwash.deco.init.BTDCItems;
-import com.enwash.deco.util.IHasModel;
+import com.enwash.deco.util.ICanHazModel;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockHorizontal;
@@ -37,7 +37,7 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraft.block.BlockWorkbench;
 
-public class CarpentryStation extends Block implements IHasModel {
+public class CarpentryStation extends Block implements ICanHazModel {
 	
 	public static final PropertyDirection FACING = BlockHorizontal.FACING;
 	

@@ -1,5 +1,5 @@
 {
-    "type": "crafting_shapeless",
+    "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
             "type": "forge:ore_dict",
@@ -9,5 +9,5 @@
             "item": "minecraft:flint"
         }
     ],
-    "result": {"item": "btdc:log_tinted"}
+    "result": {"item": "btdc:log_tinted", "count": 1}
 }
