@@ -1,5 +1,6 @@
 # recipes
 recipes
+!src/**
 
 # eclipse
 bin
@@ -23,4 +24,3 @@ build
 # other
 eclipse
 run
-update.json
