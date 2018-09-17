@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:wool",
+			"data": 32767
+        },
+        {
+            "item": "minecraft:red_mushroom"
+        },
+		{
+			"item": "btdc:sewing_kit",
+			"data": 32767
+		}
+    ],
+    "result": {
+        "item": "btdc:plush_beeshroom"
+    }
+}

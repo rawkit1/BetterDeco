@@ -35,7 +35,6 @@ import net.minecraft.world.IInteractionObject;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-import net.minecraft.block.BlockWorkbench;
 
 public class CarpentryStation extends Block implements IHasModel {
 	

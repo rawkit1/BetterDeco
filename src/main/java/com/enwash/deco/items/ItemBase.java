@@ -3,8 +3,6 @@ package com.enwash.deco.items;
 import com.enwash.deco.Main;
 import com.enwash.deco.init.BTDCItems;
 import com.enwash.deco.util.IHasModel;
-
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
 public class ItemBase extends Item implements IHasModel {
@@ -13,7 +11,6 @@ public class ItemBase extends Item implements IHasModel {
 	{
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		
 		BTDCItems.ITEMS.add(this);
 	}
 	

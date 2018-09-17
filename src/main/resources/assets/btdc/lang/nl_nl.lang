@@ -1,7 +1,11 @@
+﻿// ITEMS
+
+item.item_404.name=§c-§r§6voorwerp_§4404§r§c-§r
+item.sewing_kit.name=Naaiset
+
 // BLOCKS
 
 tile.fountain.name=Fontein
-tile.torch_diamond.name=Diamanten Fakkel
 tile.torch_tall_wood.name=Tikifakkel
 tile.chandelier.name=Kroonluchter
 tile.candelabra.name=Kandelaar
@@ -9,8 +13,10 @@ tile.mailbox_wood.name=Houten Postbus
 tile.logdeer.name=Boomstamhert
 tile.luckycat_white.name=Gelukskat (Wit)
 tile.luckycat_black.name=Gelukskat (Zwart)
+tile.luckycat_gold.name=Gelukskat (Goud)
 tile.log_tinted.name=Getinte Boomstam
 tile.coffee_table_glass.name=Glazen Salontafel
+tile.carpentry_station.name=Werktafel
 
 // BUSTS
 
@@ -21,6 +27,20 @@ tile.bust_zombie.name=Beeldje van een Zombie
 tile.bust_villager.name=Buste van een Dorpeling
 tile.bust_ghast.name=Beeldje van een Ghast
 tile.bust_slime.name=Beeldje van Slijmkubussen
+
+//TROHPIES
+
+tile.wall_mount.name=Trofeebevestiging
+tile.trophy_cow.name=Koeientrofee
+tile.trophy_pig.name=Varkenstrofee
+tile.trophy_sheep.name=Schapentrofee
+
+//PLUSHES
+
+tile.plush_enwash.name=Enwash-knuffel
+tile.plush_enderman.name=Endermanknuffel
+tile.plush_steve.name=Steve-knuffel
+tile.plush_beeshroom.name=Beeshroom-knuffel
 
 // OTHER
 
