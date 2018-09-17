@@ -16,6 +16,6 @@ public class BTDCItems {
 	//public static final ToolMaterial MATERIAL_ETH_SWORD = EnumHelper.addToolMaterial("material_eth_sword", 3, 1800, 8.0F, 8.0F, 10);
 	
 	public static final Item ITEM_404 = new ItemBase("item_404");
-	public static final Item SEWING_NEEDLE = new Needle("sewing_needle");
+	public static final Item SEWING_NEEDLE = new CraftTool("sewing_needle");
 	
 }
