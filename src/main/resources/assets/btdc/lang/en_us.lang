@@ -1,7 +1,15 @@
+<<<<<<< HEAD
 // ITEMS
 item.sewing_needle.name=Sewing Needle
+=======
+﻿// ITEMS
+
+item.item_404.name=§c-§r§6item_§4404§r§c-§r
+item.sewing_kit.name=Sewing Kit
+>>>>>>> a641695c715abc379525afdada2d835db24dacf0
 
 // BLOCKS
+
 tile.fountain.name=Fountain
 tile.torch_tall_wood.name=Tiki Torch
 tile.chandelier.name=Chandelier
@@ -18,6 +26,7 @@ tile.carpentry_station.name=Carpentry Station
 tile.globe.name=Globe
 
 // BUSTS
+
 tile.bust_notch.name=Notch Bust
 tile.bust_enwash.name=Enwash Bust
 tile.bust_creeper.name=Creeper Statuette
@@ -26,13 +35,19 @@ tile.bust_villager.name=Villager Bust
 tile.bust_ghast.name=Ghast Statuette
 tile.bust_slime.name=Slime Statuette
 
+<<<<<<< HEAD
 //TROPHIES
+=======
+//TROHPIES
+
+>>>>>>> a641695c715abc379525afdada2d835db24dacf0
 tile.wall_mount.name=Trophy Mount
 tile.trophy_cow.name=Cow Trophy
 tile.trophy_pig.name=Pig Trophy
 tile.trophy_sheep.name=Sheep Trophy
 
 //PLUSHES
+
 tile.plush_enwash.name=Enwash Plush
 tile.plush_enderman.name=Enderman Plush
 tile.plush_steve.name=Steve Plush
@@ -40,6 +55,8 @@ tile.plush_beeshroom.name=Beeshroom Plush
 tile.plush_herobrine.name=Herobrine Plush
 
 // OTHER
+
 itemGroup.lighting=Better Deco: Lighting
 itemGroup.furniture=Better Deco: Furniture
 itemGroup.btdcresources=Better Deco: Resources
+itemGroup.busts=Better Deco: Statues

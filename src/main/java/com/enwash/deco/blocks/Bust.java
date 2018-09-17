@@ -39,6 +39,8 @@ public class Bust extends Block implements ICanHazModel {
 		setRegistryName(name);
 		setCreativeTab(Main.furniture);
 		setSoundType(soundType);
+		setCreativeTab(Main.busts);
+		setSoundType(SoundType.STONE);
 		setHardness(3.0F);
 		setResistance(1.0F);
 		setHarvestLevel("pickaxe", 1);

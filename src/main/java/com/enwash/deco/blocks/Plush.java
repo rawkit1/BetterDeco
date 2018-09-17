@@ -1,18 +1,11 @@
 package com.enwash.deco.blocks;
 
-import java.util.List;
-
-import com.enwash.deco.init.BTDCBlocks;
-import com.google.common.collect.ImmutableList;
-
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
-import net.minecraftforge.common.IShearable;
 
 public class Plush extends Bust {
 	public static final AxisAlignedBB BOUNDING_BOX = new AxisAlignedBB(0.25D, 0.0D, 0.25D, .75D, .75D, .75D);

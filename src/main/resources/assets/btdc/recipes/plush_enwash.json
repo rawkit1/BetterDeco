@@ -2,15 +2,18 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "btdc:sewing_needle"
-        },
-        {
             "item": "minecraft:wool",
-            "data": 0
+            "data": 32767
         },
         {
-            "item": "minecraft:red_flower"
+            "item": "minecraft:iron_ingot"
+        },
+        {
+            "item": "btdc:sewing_kit",
+            "data": 32767
         }
     ],
-    "result": {"item": "btdc:plush_enwash", "count": 1}
+    "result": {
+        "item": "btdc:plush_enwash"
+    }
 }
