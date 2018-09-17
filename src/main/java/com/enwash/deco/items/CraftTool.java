@@ -2,8 +2,8 @@ package com.enwash.deco.items;
 
 import com.enwash.deco.Main;
 
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
+
 
 public class CraftTool extends ItemBase{
 

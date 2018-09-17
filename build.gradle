@@ -75,3 +75,12 @@ processResources {
         exclude 'mcmod.info'
     }
 }
+
+jar {
+        manifest {
+            attributes([
+                    'Maven-Artifact': "${project.group}:${archivesBaseName}:${project.version}",
+                    'Timestamp'     : System.currentTimeMillis()
+            ])
+        }
+    }
