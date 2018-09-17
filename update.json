@@ -1,0 +1,12 @@
+{
+  "homepage": "https://minecraft.curseforge.com/projects/302686",
+  "1.12.2": {
+    "0.1": "First alpha release of this mod", 
+    "1.0": "Added Dutch language option, changed modid, fixed some issues, and added the fountain, golden lucky cat, and glass table blocks",
+    "1.2": "Added plushies, trophies, and the sewing kit. Also fixed some issues.
+  },
+  "promos": {
+    "1.12.2-latest": "1.2",
+    "1.12.2-recommended": "1.2"
+  }
+}
