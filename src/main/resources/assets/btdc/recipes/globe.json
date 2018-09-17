@@ -1,16 +1,16 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "CWC",
         "CCC",
-        " C "
+        " WC",
+        "CCC"
     ],
     "key": {
         "C": {
-            "item": "btdc:log_tinted"
+            "item": "minecraft:stick"
         },
 		"W": {
-            "item": "minecraft:dirt"
+            "item": "minecraft:grass"
         }
     },
     "result": {
