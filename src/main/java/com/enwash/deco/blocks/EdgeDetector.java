@@ -24,7 +24,7 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class CoffeeTable extends BlockBase
+public class EdgeDetector extends BlockBase
 {
     public static final PropertyBool BACK = PropertyBool.create("back");
     public static final PropertyBool FORWARD = PropertyBool.create("forward");
@@ -33,7 +33,7 @@ public class CoffeeTable extends BlockBase
 
   
     public static final AxisAlignedBB COFFEE_TABLE_AABB = new AxisAlignedBB(0, 0, 0, 1D, .75D, 1D);
-    public CoffeeTable(String name, Material material, SoundType sound)
+    public EdgeDetector(String name, Material material, SoundType sound)
     {
         super(name, material);
         setHarvestLevel("axe", 0);

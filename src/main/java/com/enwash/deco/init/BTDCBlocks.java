@@ -6,12 +6,13 @@ import java.util.List;
 import com.enwash.deco.blocks.Bust;
 import com.enwash.deco.blocks.Candelabra;
 import com.enwash.deco.blocks.Chandelier;
-import com.enwash.deco.blocks.CoffeeTable;
+import com.enwash.deco.blocks.EdgeDetector;
 import com.enwash.deco.blocks.Fountain;
 import com.enwash.deco.blocks.LogDeer;
 import com.enwash.deco.blocks.LogTinted;
 import com.enwash.deco.blocks.Mailbox;
 import com.enwash.deco.blocks.Plush;
+import com.enwash.deco.blocks.Rug;
 import com.enwash.deco.blocks.TorchTall;
 import com.enwash.deco.blocks.Trophy;
 
@@ -57,9 +58,10 @@ public class BTDCBlocks {
 	public static final Block LOGDEER = new LogDeer("logdeer", Material.WOOD);
 	public static final Block LOGDEER_BIG = new LogDeer("logdeer_big", Material.WOOD);
 	public static final Block LOG_TINTED = new LogTinted("log_tinted", Material.WOOD);
-	public static final Block COFFEE_TABLE_GLASS = new CoffeeTable("coffee_table_glass", Material.WOOD, SoundType.WOOD);
+	public static final Block COFFEE_TABLE_GLASS = new EdgeDetector("coffee_table_glass", Material.WOOD, SoundType.WOOD);
 	public static final Block FOUNTAIN = new Fountain("fountain", Material.ROCK);
 	
+	//public static final Block RUG_MAJESTIC = new Rug("rug_majestic", Material.CARPET, SoundType.CLOTH);
 	//public static final Block CARPENTRY_STATION = new CarpentryStation("carpentry_station", Material.WOOD);
 	
 }
