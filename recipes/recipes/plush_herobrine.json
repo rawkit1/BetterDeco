@@ -6,11 +6,14 @@
             "data": 32767
         },
         {
+            "item": "minecraft:redstone_torch"
+        },
+        {
             "item": "btdc:sewing_kit",
             "data": 32767
         }
     ],
     "result": {
-        "item": "btdc:plush_steve"
+        "item": "btdc:plush_herobrine"
     }
 }

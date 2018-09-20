@@ -3,9 +3,6 @@ package com.enwash.deco.items;
 import com.enwash.deco.Main;
 import com.enwash.deco.init.BTDCItems;
 import com.enwash.deco.util.ICanHazModel;
-
-import net.minecraft.creativetab.CreativeTabs;
-import com.enwash.deco.util.ICanHazModel;
 import net.minecraft.item.Item;
 
 public class ItemBase extends Item implements ICanHazModel {

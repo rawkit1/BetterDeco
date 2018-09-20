@@ -1,8 +1,6 @@
 package com.enwash.deco.blocks;
 
 import com.enwash.deco.Main;
-import com.enwash.deco.init.BTDCBlocks;
-import com.enwash.deco.init.BTDCItems;
 import com.enwash.deco.util.ICanHazModel;
 
 import net.minecraft.block.SoundType;
@@ -24,7 +22,7 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class EdgeDetector extends BlockBase
+public class EdgeDetector extends BlockBase implements ICanHazModel
 {
     public static final PropertyBool BACK = PropertyBool.create("back");
     public static final PropertyBool FORWARD = PropertyBool.create("forward");

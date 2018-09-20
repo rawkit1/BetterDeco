@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "GGG",
+        "L L",
+        "LPL"
+    ],
+    "key": {
+        "G": {
+            "item": "minecraft:glass_pane"
+        },
+        "L": {
+            "type": "forge:ore_dict",
+            "ore": "logWood"
+        },
+        "P": {
+            "item": "slabWood"
+        }
+    },
+    "result": {
+        "item": "btdc:coffee_table_glass",
+		"count": 3
+    }
+}
