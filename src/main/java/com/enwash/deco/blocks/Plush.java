@@ -15,8 +15,7 @@ public class Plush extends Bust {
 		setSoundType(SoundType.CLOTH);
 		setHardness(3.0F);
 		setResistance(1.0F);
-		setUnlocalizedName(name);
-		this.setLightOpacity(0);
+		setLightOpacity(0);
 	}
 	
 	@Override

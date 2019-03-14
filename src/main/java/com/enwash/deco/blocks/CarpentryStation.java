@@ -3,7 +3,7 @@ package com.enwash.deco.blocks;
 import com.enwash.deco.Main;
 import com.enwash.deco.init.BTDCBlocks;
 import com.enwash.deco.init.BTDCItems;
-import com.enwash.deco.util.ICanHazModel;
+import com.enwash.deco.util.ModMaterial;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockHorizontal;
@@ -20,8 +20,6 @@ import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.inventory.Container;
 import net.minecraft.inventory.ContainerWorkbench;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemBlock;
 import net.minecraft.stats.StatList;
 import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.util.EnumFacing;
@@ -31,12 +29,13 @@ import net.minecraft.util.Rotation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextComponentTranslation;
+import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.IInteractionObject;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class CarpentryStation extends Block implements ICanHazModel {
+public class CarpentryStation extends Block{
 	
 	public static final PropertyDirection FACING = BlockHorizontal.FACING;
 	
@@ -51,7 +50,7 @@ public class CarpentryStation extends Block implements ICanHazModel {
 		setSoundType(SoundType.WOOD);
 		setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
 		BTDCBlocks.BLOCKS.add(this);
-		BTDCItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+		BTDCItems.addItemBlock(this);
 	}
 	
 	// Gui
@@ -195,14 +194,17 @@ public class CarpentryStation extends Block implements ICanHazModel {
     	return false;
     }
 
-	@Override
-	public void registerModels() {
-		Main.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
-		
-	}
 	
 	@SideOnly(Side.CLIENT)
     public BlockRenderLayer getBlockLayer(){
         return BlockRenderLayer.CUTOUT;
+    }
+    @Override
+    public int getFlammability(IBlockAccess world, BlockPos pos, EnumFacing face){
+    	return ModMaterial.getFlammability(this.blockMaterial);
+    }
+    @Override
+    public int getFireSpreadSpeed(IBlockAccess world, BlockPos pos, EnumFacing face){
+    	return ModMaterial.getFireSpread(this.blockMaterial);
     }
 }

@@ -14,7 +14,8 @@
             "ore": "logWood"
         },
         "P": {
-            "item": "slabWood"
+			"type": "forge:ore_dict",
+            "ore": "slabWood"
         }
     },
     "result": {

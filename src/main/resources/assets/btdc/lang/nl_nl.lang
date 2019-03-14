@@ -19,6 +19,7 @@ tile.log_tinted.name=Getinte Boomstam
 tile.coffee_table_glass.name=Glazen Salontafel
 tile.carpentry_station.name=Werktafel
 tile.globe.name=Wereldbol
+tile.spinning_wheel.name=Spinnewiel
 
 // BUSTS
 
@@ -44,6 +45,30 @@ tile.plush_enderman.name=Endermanknuffel
 tile.plush_steve.name=Steve-knuffel
 tile.plush_beeshroom.name=Beeshroom-knuffel
 tile.plush_herobrine.name=Herobrine-knuffel
+
+//CONTAINERS
+
+container.spinning_wheel=Spinnewiel
+
+//ITEM VARIANTS
+
+tile.color_wire.name=Draad
+tile.color_wire.black.name=Zwarte Draad
+tile.color_wire.blue.name=Blauwe Draad
+tile.color_wire.brown.name=Bruine Draad
+tile.color_wire.cyan.name=Turquoise Draad
+tile.color_wire.gray.name=Grijze Draad
+tile.color_wire.green.name=Groene Draad
+tile.color_wire.lightBlue.name=Lichtblauwe Draad
+tile.color_wire.lime.name=Lichtgroene Draad
+tile.color_wire.magenta.name=Magenta Draad
+tile.color_wire.orange.name=Oranje Draad
+tile.color_wire.pink.name=Roze Draad
+tile.color_wire.purple.name=Paarse Draad
+tile.color_wire.red.name=Rode Draad
+tile.color_wire.silver.name=Lichtgrijze Draad
+tile.color_wire.white.name=Witte Draad
+tile.color_wire.yellow.name=Gele Draad
 
 // OTHER
 

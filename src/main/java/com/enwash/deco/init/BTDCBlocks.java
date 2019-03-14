@@ -7,6 +7,7 @@ import com.enwash.deco.Main;
 import com.enwash.deco.blocks.Bust;
 import com.enwash.deco.blocks.Candelabra;
 import com.enwash.deco.blocks.Chandelier;
+import com.enwash.deco.blocks.ColoredWire;
 import com.enwash.deco.blocks.EdgeDetector;
 import com.enwash.deco.blocks.Fountain;
 import com.enwash.deco.blocks.LogDeer;
@@ -14,17 +15,21 @@ import com.enwash.deco.blocks.LogTinted;
 import com.enwash.deco.blocks.Mailbox;
 import com.enwash.deco.blocks.Plush;
 import com.enwash.deco.blocks.Rug;
+import com.enwash.deco.blocks.SpinningWheel;
 import com.enwash.deco.blocks.TorchTall;
 import com.enwash.deco.blocks.Trophy;
+import com.enwash.deco.items.ItemRug;
+import com.enwash.deco.util.ModMaterial;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
+import net.minecraft.item.EnumDyeColor;
+import net.minecraft.item.Item;
 
 public class BTDCBlocks {
 
 	public static final List<Block> BLOCKS = new ArrayList<Block>();
-	
 	// BUSTS + STATUETTES
 	public static final Block TORCH_TALL_WOOD = new TorchTall("torch_tall_wood", Material.WOOD, 1F, SoundType.WOOD);
 	public static final Block CHANDELIER = new Chandelier("chandelier", Material.WOOD, 1F, SoundType.WOOD);
@@ -61,8 +66,18 @@ public class BTDCBlocks {
 	public static final Block LOG_TINTED = new LogTinted("log_tinted", Material.WOOD);
 	public static final Block COFFEE_TABLE_GLASS = new EdgeDetector("coffee_table_glass", Material.WOOD, SoundType.WOOD);
 	public static final Block FOUNTAIN = new Fountain("fountain", Material.ROCK);
-	
-	//public static final Block RUG_MAJESTIC = new Rug("rug_majestic", Material.CARPET, SoundType.CLOTH);
+	public static final Block SPINNING_WHEEL = new SpinningWheel("spinning_wheel", ModMaterial.HARDWOOD);
+	public static final Block COLOR_STRING = new ColoredWire("color_wire");
+	public static final List<Block> RUG = new ArrayList<Block>();
+	static{
+		for (EnumDyeColor color: EnumDyeColor.values()){
+			RUG.add(new Rug("rug", Material.CARPET, SoundType.CLOTH, color));
+		}
+	}
+	public static final Item RUG_ITEM = new ItemRug(RUG).setRegistryName("rug");
+	static{
+	BTDCItems.ITEMS.add(RUG_ITEM);
+	}
 	//public static final Block CARPENTRY_STATION = new CarpentryStation("carpentry_station", Material.WOOD);
 	
 }

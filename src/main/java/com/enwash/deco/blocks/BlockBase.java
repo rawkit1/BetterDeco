@@ -1,17 +1,17 @@
 package com.enwash.deco.blocks;
 
-import com.enwash.deco.Main;
 import com.enwash.deco.init.BTDCBlocks;
 import com.enwash.deco.init.BTDCItems;
-import com.enwash.deco.util.ICanHazModel;
+import com.enwash.deco.util.ModMaterial;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemBlock;
+import net.minecraft.util.EnumFacing;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.IBlockAccess;
 
-public class BlockBase extends Block implements ICanHazModel {
+public class BlockBase extends Block{
 
 	public BlockBase(String name, Material material)
 	{
@@ -20,15 +20,16 @@ public class BlockBase extends Block implements ICanHazModel {
 		setRegistryName(name);
 		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 		BTDCBlocks.BLOCKS.add(this);
-		BTDCItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+		BTDCItems.addItemBlock(this);
 	}
 
-	@Override
-	public void registerModels() {
-		
-		Main.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
-		
-	}
 	
-	
+    @Override
+    public int getFlammability(IBlockAccess world, BlockPos pos, EnumFacing face){
+    	return ModMaterial.getFlammability(this.blockMaterial);
+    }
+    @Override
+    public int getFireSpreadSpeed(IBlockAccess world, BlockPos pos, EnumFacing face){
+    	return ModMaterial.getFireSpread(this.blockMaterial);
+    }
 }

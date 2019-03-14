@@ -1,0 +1,193 @@
+{
+	"forge_marker": 1,
+	"variants": {
+		"color": {
+			"black": {
+				"textures": {
+					"texture": "btdc:blocks/trip_wire/black",
+					"particle": "btdc:blocks/trip_wire/black"
+				}
+			},
+			"blue": {
+				"textures": {
+					"texture": "btdc:blocks/trip_wire/blue",
+					"particle": "btdc:blocks/trip_wire/blue"
+				}
+			},
+			"brown": {
+				"textures": {
+					"texture": "btdc:blocks/trip_wire/brown",
+					"particle": "btdc:blocks/trip_wire/brown"
+				}
+			},
+			"cyan": {
+				"textures": {
+					"texture": "btdc:blocks/trip_wire/cyan",
+					"particle": "btdc:blocks/trip_wire/cyan"
+				}
+			},
+			"gray": {
+				"textures": {
+					"texture": "btdc:blocks/trip_wire/gray",
+					"particle": "btdc:blocks/trip_wire/gray"
+				}
+			},
+			"green": {
+				"textures": {
+					"texture": "btdc:blocks/trip_wire/green",
+					"particle": "btdc:blocks/trip_wire/green"
+				}
+			},
+			"light_blue": {
+				"textures": {
+					"texture": "btdc:blocks/trip_wire/lightblue",
+					"particle": "btdc:blocks/trip_wire/lightblue"
+				}
+			},
+			"lime": {
+				"textures": {
+					"texture": "btdc:blocks/trip_wire/lime",
+					"particle": "btdc:blocks/trip_wire/lime"
+				}
+			},
+			"magenta": {
+				"textures": {
+					"texture": "btdc:blocks/trip_wire/magenta",
+					"particle": "btdc:blocks/trip_wire/magenta"
+				}
+			},
+			"orange": {
+				"textures": {
+					"texture": "btdc:blocks/trip_wire/orange",
+					"particle": "btdc:blocks/trip_wire/orange"
+				}
+			},
+			"pink": {
+				"textures": {
+					"texture": "btdc:blocks/trip_wire/pink",
+					"particle": "btdc:blocks/trip_wire/pink"
+				}
+			},
+			"purple": {
+				"textures": {
+					"texture": "btdc:blocks/trip_wire/purple",
+					"particle": "btdc:blocks/trip_wire/purple"
+				}
+			},
+			"red": {
+				"textures": {
+					"texture": "btdc:blocks/trip_wire/red",
+					"particle": "btdc:blocks/trip_wire/red"
+				}
+			},
+			"silver": {
+				"textures": {
+					"texture": "btdc:blocks/trip_wire/silver",
+					"particle": "btdc:blocks/trip_wire/silver"
+				}
+			},
+			"white": {},
+			"yellow": {
+				"textures": {
+					"texture": "btdc:blocks/trip_wire/yellow",
+					"particle": "btdc:blocks/trip_wire/yellow"
+				}
+			}
+		},
+		"east": {
+			"true": {
+				"submodel": {
+					"inner1": {
+						"model": "btdc:color_string/mid",
+						"y": 90
+					},
+					"outer2": {
+						"model": "btdc:color_string/end",
+						"y": 90
+					}
+				}
+			},
+			"false": {}
+		},
+		"north": {
+			"true": {
+				"submodel": {
+					"inner3": {
+						"model": "btdc:color_string/mid"
+					},
+					"outer4": {
+						"model": "btdc:color_string/end"
+					}
+				}
+			},
+			"false": {}
+		},
+		"south": {
+			"true": {
+				"submodel": {
+					"inner5": {
+						"model": "btdc:color_string/mid",
+						"y": 180
+					},
+					"outer6": {
+						"model": "btdc:color_string/end",
+						"y": 180
+					}
+				}
+			},
+			"false": {}
+		},
+		"west": {
+			"true": {
+				"submodel": {
+					"inner7": {
+						"model": "btdc:color_string/mid",
+						"y": 270
+					},
+					"outer8": {
+						"model": "btdc:color_string/end",
+						"y": 270
+					}
+				}
+			},
+			"false": {}
+		},
+		"xtra": {
+			"east": {
+				"submodel": {
+					"inner9": {
+						"model": "btdc:color_string/mid",
+						"y": 90
+					}
+				}
+			},
+			"none": {},
+			"north": {
+				"submodel": {
+					"inner10": {
+						"model": "btdc:color_string/mid"
+					}
+				}
+			},
+			"south": {
+				"submodel": {
+					"inner11": {
+						"model": "btdc:color_string/mid",
+						"y": 180
+					}
+				}
+			},
+			"west": {
+				"submodel": {
+					"inner12": {
+						"model": "btdc:color_string/mid",
+						"y": 270
+					}
+				}
+			},
+			"zero": {
+				"model": "tripwire_ns"
+			}
+		}
+	}
+}

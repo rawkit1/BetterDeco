@@ -144,5 +144,4 @@ public class Candelabra extends BlockBase{
         worldIn.spawnParticle(EnumParticleTypes.SMOKE_NORMAL, m0, m1, m2, 0.0D, 0.0D, 0.0D);
         worldIn.spawnParticle(EnumParticleTypes.FLAME, m0, m1, m2, 0.0D, 0.0D, 0.0D);
     }
-    
 }

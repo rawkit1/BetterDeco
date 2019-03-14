@@ -1,0 +1,218 @@
+{	"forge_marker": 1,
+	"defaults": {
+	"model": "btdc:rug/single"
+	},
+    "variants": {
+		"c1": {
+			"white": {"textures": {"base": "blocks/wool_colored_white"}},
+			"orange": {"textures": {"base": "blocks/wool_colored_orange"}},
+			"magenta": {"textures": {"base": "blocks/wool_colored_magenta"}},
+			"light_blue": {"textures": {"base": "blocks/wool_colored_light_blue"}},
+			"yellow": {"textures": {"base": "blocks/wool_colored_yellow"}},
+			"lime": {"textures": {"base": "blocks/wool_colored_lime"}},
+			"pink": {"textures": {"base": "blocks/wool_colored_pink"}},
+			"gray": {"textures": {"base": "blocks/wool_colored_gray"}},
+			"silver": {"textures": {"base": "blocks/wool_colored_silver"}},
+			"cyan": {"textures": {"base": "blocks/wool_colored_cyan"}},
+			"purple": {"textures": {"base": "blocks/wool_colored_purple"}},
+			"blue": {"textures": {"base": "blocks/wool_colored_blue"}},
+			"brown": {"textures": {"base": "blocks/wool_colored_brown"}},
+			"green": {"textures": {"base": "blocks/wool_colored_green"}},
+			"red": {"textures": {"base": "blocks/wool_colored_red"}},
+			"black": {"textures": {"base": "blocks/wool_colored_black"}}
+		},
+		"c2": {
+			"white": {"textures": {
+				"edge": "blocks/wool_colored_white",
+				"pattern": "btdc:blocks/rug_majestic/white"}},
+			"orange": {"textures": {
+				"edge": "blocks/wool_colored_orange",
+				"pattern": "btdc:blocks/rug_majestic/orange"}},
+			"magenta": {"textures": {
+				"edge": "blocks/wool_colored_magenta",
+				"pattern": "btdc:blocks/rug_majestic/magenta"}},
+			"light_blue": {"textures": {
+				"edge": "blocks/wool_colored_light_blue",
+				"pattern": "btdc:blocks/rug_majestic/lightblue"}},
+			"yellow": {"textures": {
+				"edge": "blocks/wool_colored_yellow",
+				"pattern": "btdc:blocks/rug_majestic/yellow"}},
+			"lime": {"textures": {
+				"edge": "blocks/wool_colored_lime",
+				"pattern": "btdc:blocks/rug_majestic/lime"}},
+			"pink": {"textures": {
+				"edge": "blocks/wool_colored_pink",
+				"pattern": "btdc:blocks/rug_majestic/pink"}},
+			"gray": {"textures": {
+				"edge": "blocks/wool_colored_gray",
+				"pattern": "btdc:blocks/rug_majestic/gray"}},
+			"silver": {"textures": {
+				"edge": "blocks/wool_colored_silver",
+				"pattern": "btdc:blocks/rug_majestic/silver"}},
+			"cyan": {"textures": {
+				"edge": "blocks/wool_colored_cyan",
+				"pattern": "btdc:blocks/rug_majestic/cyan"}},
+			"purple": {"textures": {
+				"edge": "blocks/wool_colored_purple",
+				"pattern": "btdc:blocks/rug_majestic/purple"}},
+			"blue": {"textures": {
+				"edge": "blocks/wool_colored_blue",
+				"pattern": "btdc:blocks/rug_majestic/blue"}},
+			"brown": {"textures": {
+				"edge": "blocks/wool_colored_brown",
+				"pattern": "btdc:blocks/rug_majestic/brown"}},
+			"green": {"textures": {
+				"edge": "blocks/wool_colored_green",
+				"pattern": "btdc:blocks/rug_majestic/green"}},
+			"red": {"textures": {
+				"edge": "blocks/wool_colored_red",
+				"pattern": "btdc:blocks/rug_majestic/red"}},
+			"black": {"textures": {
+				"edge": "blocks/wool_colored_black",
+				"pattern": "btdc:blocks/rug_majestic/black"}}
+		},
+        "n": {
+            "1,e=0,s=0,w=0": {
+                "model": "btdc:rug/cap_s"
+            },
+            "0,e=1,s=0,w=0": {
+                "model": "btdc:rug/cap_w"
+            },
+            "0,e=0,s=1,w=0": {
+                "model": "btdc:rug/cap_n"
+            },
+            "0,e=0,s=0,w=1": {
+                "model": "btdc:rug/cap_e"
+            },
+            "1,e=1,s=0,w=0": {
+                "model": "btdc:rug/bend_ne"
+            },
+            "2,e=2,s=0,w=0": {
+                "model": "btdc:rug/corner_sw"
+            },
+            "0,e=1,s=1,w=0": {
+                "model": "btdc:rug/bend_se"
+            },
+            "0,e=2,s=2,w=0": {
+                "model": "btdc:rug/corner_nw"
+            },
+            "0,e=0,s=1,w=1": {
+                "model": "btdc:rug/bend_sw"
+            },
+            "0,e=0,s=2,w=2": {
+                "model": "btdc:rug/corner_ne"
+            },
+            "2,e=0,s=0,w=2": {
+                "model": "btdc:rug/corner_se"
+            },
+            "1,e=0,s=0,w=1": {
+                "model": "btdc:rug/bend_nw"
+            },
+            "1,e=0,s=1,w=0": {
+                "model": "btdc:rug/straight_z"
+            },
+            "0,e=1,s=0,w=1": {
+                "model": "btdc:rug/straight_x"
+            },
+            "1,e=1,s=1,w=0": {
+                "model": "btdc:rug/tsplit_w"
+            },
+            "2,e=2,s=1,w=0": {
+                "model": "btdc:rug/corner_sw_withcrop_s"
+            },
+            "1,e=2,s=2,w=0": {
+                "model": "btdc:rug/corner_nw_withcrop_n"
+            },
+            "2,e=2,s=2,w=0": {
+                "model": "btdc:rug/edge_w"
+            },
+            "0,e=1,s=1,w=1": {
+                "model": "btdc:rug/tsplit_n"
+            },
+            "0,e=2,s=2,w=1": {
+                "model": "btdc:rug/corner_nw_withcrop_w"
+            },
+            "0,e=1,s=2,w=2": {
+                "model": "btdc:rug/corner_ne_withcrop_e"
+            },
+            "0,e=2,s=2,w=2": {
+                "model": "btdc:rug/edge_n"
+            },
+            "2,e=0,s=1,w=2": {
+                "model": "btdc:rug/corner_se_withcrop_s"
+            },
+            "1,e=0,s=1,w=1": {
+                "model": "btdc:rug/tsplit_e"
+            },
+            "1,e=0,s=2,w=2": {
+                "model": "btdc:rug/corner_ne_withcrop_n"
+            },
+            "2,e=0,s=2,w=2": {
+                "model": "btdc:rug/edge_e"
+            },
+            "2,e=1,s=0,w=2": {
+                "model": "btdc:rug/corner_se_withcrop_e"
+            },
+            "2,e=2,s=0,w=1": {
+                "model": "btdc:rug/corner_sw_withcrop_w"
+            },
+            "1,e=1,s=0,w=1": {
+                "model": "btdc:rug/tsplit_s"
+            },
+            "2,e=2,s=0,w=2": {
+                "model": "btdc:rug/edge_s"
+            },
+            "0,e=0,s=0,w=0": {
+                "model": "btdc:rug/single"
+            },
+            "2,e=1,s=1,w=2": {
+                "model": "btdc:rug/corner_se_withcrops"
+            },
+            "2,e=2,s=1,w=1": {
+                "model": "btdc:rug/corner_sw_withcrops"
+            },
+            "1,e=2,s=2,w=1": {
+                "model": "btdc:rug/corner_nw_withcrops"
+            },
+            "1,e=1,s=2,w=2": {
+                "model": "btdc:rug/corner_ne_withcrops"
+            },
+            "2,e=2,s=1,w=2": {
+                "model": "btdc:rug/edge_s_withcrop"
+            },
+            "2,e=2,s=2,w=1": {
+                "model": "btdc:rug/edge_w_withcrop"
+            },
+            "1,e=2,s=2,w=2": {
+                "model": "btdc:rug/edge_n_withcrop"
+            },
+            "2,e=1,s=2,w=2": {
+                "model": "btdc:rug/edge_e_withcrop"
+            },
+            "2,ne=0,se=2,sw=0": {
+                "model": "btdc:rug/diagonal"
+            },
+            "0,ne=2,se=0,sw=2": {
+                "model": "btdc:rug/counterdiagonal"
+            },
+            "2,ne=2,se=2,sw=0": {
+                "model": "btdc:rug/reverse_corner_ne"
+            },
+            "0,ne=2,se=2,sw=2": {
+                "model": "btdc:rug/reverse_corner_se"
+            },
+            "2,ne=0,se=2,sw=2": {
+                "model": "btdc:rug/reverse_corner_sw"
+            },
+            "2,ne=2,se=0,sw=2": {
+                "model": "btdc:rug/reverse_corner_nw"
+            },
+            "1,e=1,s=1,w=1": {
+                "model": "btdc:rug/cross"
+            },
+            "2,ne=2,se=2,sw=2": {
+                "model": "btdc:rug/infill"
+            }
+        }
+    }
+}

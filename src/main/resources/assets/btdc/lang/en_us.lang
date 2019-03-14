@@ -19,6 +19,7 @@ tile.log_tinted.name=Tinted Log
 tile.coffee_table_glass.name=Coffee Table
 tile.carpentry_station.name=Carpentry Station
 tile.globe.name=Globe
+tile.spinning_wheel.name=Spinning Wheel
 
 // BUSTS
 
@@ -44,6 +45,30 @@ tile.plush_enderman.name=Enderman Plush
 tile.plush_steve.name=Steve Plush
 tile.plush_beeshroom.name=Beeshroom Plush
 tile.plush_herobrine.name=Herobrine Plush
+
+//CONTAINERS
+
+container.spinning_wheel=Spinning Wheel
+
+//ITEM VARIANTS
+
+tile.color_wire.name=String
+tile.color_wire.black.name=Black String
+tile.color_wire.red.name=Red String
+tile.color_wire.green.name=Green String
+tile.color_wire.brown.name=Brown String
+tile.color_wire.blue.name=Blue String
+tile.color_wire.purple.name=Purple String
+tile.color_wire.cyan.name=Cyan String
+tile.color_wire.silver.name=Light Gray String
+tile.color_wire.gray.name=Gray String
+tile.color_wire.pink.name=Pink String
+tile.color_wire.lime.name=Lime String
+tile.color_wire.yellow.name=Yellow String
+tile.color_wire.lightBlue.name=Light Blue String
+tile.color_wire.magenta.name=Magenta String
+tile.color_wire.orange.name=Orange String
+tile.color_wire.white.name=White String
 
 // OTHER
 

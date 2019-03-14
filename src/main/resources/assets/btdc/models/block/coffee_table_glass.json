@@ -4,7 +4,6 @@
     "textures": {
         "0": "btdc:blocks/log_tinted_side",
         "1": "btdc:blocks/glass_seamless",
-        "2": "btdc:blocks/glass_seamless_clear",
         "particle": "btdc:blocks/log_tinted_side"
     },
     "elements": [

@@ -3,7 +3,7 @@ package com.enwash.deco.blocks;
 import com.enwash.deco.Main;
 import com.enwash.deco.init.BTDCBlocks;
 import com.enwash.deco.init.BTDCItems;
-import com.enwash.deco.util.ICanHazModel;
+import com.enwash.deco.util.ModMaterial;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockHorizontal;
@@ -14,17 +14,16 @@ import net.minecraft.block.properties.PropertyDirection;
 import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.Mirror;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
-public class LogDeer extends Block implements ICanHazModel {
+public class LogDeer extends Block{
 
 	public static final PropertyDirection FACING = BlockHorizontal.FACING;
 	
@@ -43,7 +42,7 @@ public class LogDeer extends Block implements ICanHazModel {
 		this.setLightOpacity(0);
 		this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
 		BTDCBlocks.BLOCKS.add(this);
-		BTDCItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+		BTDCItems.addItemBlock(this);
 	}
 
 	// Rotation
@@ -111,14 +110,6 @@ public class LogDeer extends Block implements ICanHazModel {
 		return ((EnumFacing)state.getValue(FACING)).getIndex();
 	}
 	
-	// Rendering
-	
-	@Override
-	public void registerModels() {
-		
-		Main.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
-		
-	}
 
     @Override
     public boolean isOpaqueCube(IBlockState state) 
@@ -135,5 +126,12 @@ public class LogDeer extends Block implements ICanHazModel {
     public boolean isFullCube(IBlockState state) {
     	return false;
     }
-    
+    @Override
+    public int getFlammability(IBlockAccess world, BlockPos pos, EnumFacing face){
+    	return ModMaterial.getFlammability(this.blockMaterial);
+    }
+    @Override
+    public int getFireSpreadSpeed(IBlockAccess world, BlockPos pos, EnumFacing face){
+    	return ModMaterial.getFireSpread(this.blockMaterial);
+    }
 }

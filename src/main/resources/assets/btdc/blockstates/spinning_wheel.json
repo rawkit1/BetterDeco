@@ -1,0 +1,25 @@
+{
+	"forge_marker": 1,
+	"credit": "Made by Merlijn (aka DutchM)",
+	"defaults": {
+		"model": "btdc:spinning_wheel/inventory"
+	},
+	"variants": {
+        "normal": [{}],
+		"inventory": [{}],
+		"facing": {
+			"north": {"y": 270},
+			"south": {"y": 90},
+			"east": {},
+			"west": {"y": 180}
+		},
+		"spinning": {
+			"true": {"model": "btdc:spinning_wheel/frame_off", "submodel": "btdc:spinning_wheel/wheel"},
+			"false": {}
+		},
+		"hasstring": {
+			"true": {"model": "btdc:spinning_wheel/frame_off", "submodel": "btdc:spinning_wheel/spool_on"},
+			"false": {}
+		}	
+    }
+}
